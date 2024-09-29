@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <Título> Los secretos de la mente millonaria</Título> 
+        <Autor>T. Harv Eker</Autor> 
+        <Año> 2005 </Año> 
+        <Género>Libro de autoayuda</Género> 
+        <Idioma> Espaniol </Idioma> 
+        <Sinopsis>Desarrollar una mentalidad de riqueza, concentrarse en la solución de problemas y tomar acción para lograr el éxito financiero.</Sinopsis> 
+
+    <Título> Don Quijote de la Mancha</Título> 
+        <Autor>Miguel de Cervantes</Autor> 
+        <Año> 1605 </Año> 
+        <Género> génro literario</Género> 
+        <Idioma> Castellano antiguo </Idioma> 
+        <Sinopsis>La novela narra las aventuras de Alonso Quijano, un viejo caballero que de tanto leer historias de caballería pierde la razón y decide convertirse en caballero andante para salir a resolver problemas e impartir justicia.</Sinopsis> 
+
+    <Título> Diz negritos</Título> 
+        <Autor>Agatha Christie</Autor> 
+        <Año> 1939 </Año> 
+        <Género>novela policíaca</Género> 
+        <Idioma> Espaniol </Idioma> 
+        <Sinopsis>Agatha Christie sigue a diez personas en una isla remota que son asesinadas uno a uno, siguiendo una canción infantil, mientras intentan descubrir al asesino entre ellos.</Sinopsis> 
+</biblioteca>
