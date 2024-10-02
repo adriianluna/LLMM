@@ -11,9 +11,10 @@
         </articulos_pedidos>
         <direccion> , , 
             <calle> Calle Barco 4 </calle>
-            <piso> tercer piso letra A Málaga </piso>
+            <piso> tercer piso letra A </piso>
+            <provincia> Málaga </provincia>
             <código_postal> 29004 </código_postal>
         </direccion>
-        <fecha-entrega> Día 20-9-2019 </fecha-entrega>
+        <fecha-entrega> 20-9-2019 </fecha-entrega>
 
     </pedido>
