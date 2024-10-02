@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <pedido>
         <codigo pedido="código 1111"></codigo>
-        <destinatario> José Antonio Lojo </destinatario>
+        <destinatario> 
+            <nombre>José Antonio</nombre>
+            <apellidos>Lojo</apellidos>
+        </destinatario>
         <articulo_pedido> Bicicleta A2020 </articulo_pedido>
         <direccion> Calle Barco 4, tercer piso, letra A </direccion>
         <fecha-entrega> Día 20-9-2019 </fecha-entrega>
