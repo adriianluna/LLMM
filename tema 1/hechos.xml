@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<hechos_hisatoricos>
+<hechos_historicos>
     <descripcion nombre= "IBM da aconocer el PC" ></descripcion>
-        <fecha>
+    <fecha>
             <dia>12</dia>
             <mes>8</mes>
             <anio>1981</anio>
-        </fecha>    
+    </fecha>    
     
     <descripcion nombre = "Se funda google"></descripcion>
         <fecha>
@@ -22,4 +22,4 @@
         </fecha>    
 
 
-</hechos_hisatoricos>
+</hechos_historicos>
