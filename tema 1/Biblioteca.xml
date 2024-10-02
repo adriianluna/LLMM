@@ -2,27 +2,40 @@
 <biblioteca>
     <libro>
         <Título> Los secretos de la mente millonaria</Título> 
-            <Autor>T. Harv Eker</Autor> 
-            <Año> 2005 </Año> 
-            <Género>Libro de autoayuda</Género> 
-            <Idioma> Espaniol </Idioma> 
-            <Sinopsis>Desarrollar una mentalidad de riqueza, concentrarse en la solución de problemas y tomar acción para lograr el éxito financiero.</Sinopsis> 
+            <autor>T. Harv Eker</autor> 
+            <anio> 2005 </anio> 
+            <género>Libro de autoayuda</género> 
+            <idioma> Espaniol </idioma> 
+            <sinopsis>Desarrollar una mentalidad de riqueza, concentrarse en la solución de problemas y tomar acción para lograr el éxito financiero.</sinopsis> 
+            <comentarios> 
+                <!--Un libro que no da hechos solo da infomación -->
+                <!--Un buen libro muy recomendable parqa quien quiera mejorar mentalmente -->
+            </comentarios>
     </libro>
     <libro>
         <Título> Don Quijote de la Mancha</Título> 
             <Autor>Miguel de Cervantes</Autor> 
             <Año> 1605 </Año> 
-            <Género> génro literario</Género> 
+            <Género> Género literario</Género> 
             <Idioma> Castellano antiguo </Idioma> 
             <Sinopsis>La novela narra las aventuras de Alonso Quijano, un viejo caballero que de tanto leer historias de caballería pierde la razón y decide convertirse en caballero andante para salir a resolver problemas e impartir justicia.</Sinopsis> 
+            <Comentarios>
+                <!-- Un libro muy importante y divertido para niños chicos y para gente mayor-->
+                 <!-- No sigue un orden cronológico, la historia cambia derrepente-->
+            </Comentarios>
     </libro>
 
     <libro>
-        <Título> Diz negritos</Título> 
+        <Título> Diez negritos</Título> 
             <Autor>Agatha Christie</Autor> 
             <Año> 1939 </Año> 
-            <Género>novela policíaca</Género> 
+            <Género>novela policíaca </Género> 
             <Idioma> Espaniol </Idioma> 
-            <Sinopsis>Agatha Christie sigue a diez personas en una isla remota que son asesinadas uno a uno, siguiendo una canción infantil, mientras intentan descubrir al asesino entre ellos.</Sinopsis> 
+            <Sinopsis>Agatha Christie sigue a diez personas en una isla que son asesinadas uno a uno, mientras intentan descubrir al asesino entre ellos.</Sinopsis>
+            <comentarios>
+                <!--Un buen libro que dan ganas de leer cada vez más-->
+                <!--Este libro es muy raista-->
+
+            </comentarios> 
     </libro>
 </biblioteca>
