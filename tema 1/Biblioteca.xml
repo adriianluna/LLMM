@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <biblioteca>
     <libro>
-        <Título> Los secretos de la mente millonaria</Título> 
+        <título> Los secretos de la mente millonaria</título> 
             <autor>T. Harv Eker</autor> 
             <anio> 2005 </anio> 
             <género>Libro de autoayuda</género> 
@@ -13,25 +13,25 @@
             </comentarios>
     </libro>
     <libro>
-        <Título> Don Quijote de la Mancha</Título> 
-            <Autor>Miguel de Cervantes</Autor> 
-            <Año> 1605 </Año> 
-            <Género> Género literario</Género> 
-            <Idioma> Castellano antiguo </Idioma> 
-            <Sinopsis>La novela narra las aventuras de Alonso Quijano, un viejo caballero que de tanto leer historias de caballería pierde la razón y decide convertirse en caballero andante para salir a resolver problemas e impartir justicia.</Sinopsis> 
-            <Comentarios>
+        <título> Don Quijote de la Mancha</título> 
+            <autor>Miguel de Cervantes</autor> 
+            <anio> 1605 </anio> 
+            <género> Género literario</género> 
+            <idioma> Castellano antiguo </idioma> 
+            <sinopsis>La novela narra las aventuras de Alonso Quijano, un viejo caballero que de tanto leer historias de caballería pierde la razón y decide convertirse en caballero andante para salir a resolver problemas e impartir justicia.</sinopsis> 
+            <comentarios>
                 <!-- Un libro muy importante y divertido para niños chicos y para gente mayor-->
                  <!-- No sigue un orden cronológico, la historia cambia derrepente-->
-            </Comentarios>
+            </comentarios>
     </libro>
 
     <libro>
-        <Título> Diez negritos</Título> 
-            <Autor>Agatha Christie</Autor> 
-            <Año> 1939 </Año> 
-            <Género>novela policíaca </Género> 
-            <Idioma> Espaniol </Idioma> 
-            <Sinopsis>Agatha Christie sigue a diez personas en una isla que son asesinadas uno a uno, mientras intentan descubrir al asesino entre ellos.</Sinopsis>
+        <título> Diez negritos</título> 
+            <autor>Agatha Christie</autor> 
+            <anio> 1939 </anio> 
+            <género>novela policíaca </género> 
+            <idioma> Espaniol </idioma> 
+            <sinopsis>Agatha Christie sigue a diez personas en una isla que son asesinadas uno a uno, mientras intentan descubrir al asesino entre ellos.</sinopsis>
             <comentarios>
                 <!--Un buen libro que dan ganas de leer cada vez más-->
                 <!--Este libro es muy raista-->
