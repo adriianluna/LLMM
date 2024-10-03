@@ -3,9 +3,9 @@
     <raza>
         <nombre>Perro de aguas español</nombre>
         <abreviatura>PAE</abreviatura>
-        <temperamento> Inteligente </temperamento>
-        <reconocida_la_raza> 1985 </reconocida_la_raza>
-        <Vida> 10-14 anios </Vida>
+        <temperamento>Inteligente</temperamento>
+        <reconocida_la_raza>1985</reconocida_la_raza>
+        <Vida>10-14 anios</Vida>
         <origen>Andalucía</origen>
         <tamanio>
              <macho>44 a 50 cm</macho>
@@ -20,11 +20,11 @@
         <temperamento>listo y juguetón</temperamento>
         <origen>Alemania</origen>
         <tamanio>
-            <macho> 37 a 47 cm</macho>
+            <macho>37 a 47 cm</macho>
             <hembra>35 a 45cm</hembra>
         </tamanio>    
             <peso>
-                <macho> 9 a 15 kg</macho>
+                <macho>9 a 15 kg</macho>
                 <hembra>7 a 14 kg</hembra>
             </peso> 
         
