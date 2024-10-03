@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <biblioteca>
     <libro>
-        <título nombre = "Los secretos de la mente millonaria"></título> 
+        <título></título> 
             <autor>T. Harv Eker</autor> 
             <anio>2005</anio> 
             <genero>Libro de autoayuda</genero> 
             <idioma>Espaniol</idioma> 
             <sinopsis>Desarrollar una mentalidad de riqueza, concentrarse en la solución de problemas y tomar acción para lograr el éxito financiero.</sinopsis> 
-            <comentarios> 
+            <comentarios user="Nano33"> 
                 <!--Un libro que no da hechos solo da infomación -->
                 <!--Un buen libro muy recomendable para quien quiera mejorar mentalmente -->
             </comentarios>
     </libro>
     <libro>
-        <título nombre = "Don Quijote de la Mancha"></título> 
+        <título></título> 
             <autor>Miguel de Cervantes</autor> 
             <anio>1605</anio> 
             <genero>Género literario</genero> 
             <idioma>Castellano antiguo</idioma> 
             <sinopsis>La novela narra las aventuras de Alonso Quijano, un viejo caballero que de tanto leer historias de caballería pierde la razón y decide convertirse en caballero andante para salir a resolver problemas e impartir justicia.</sinopsis> 
-            <comentarios>
+            <comentarios user="Pancho33">
                 <!-- Un libro muy importante y divertido para niños chicos y para gente mayor-->
                  <!-- No sigue un orden cronológico, la historia cambia bruscamente-->
             </comentarios>
     </libro>
 
     <libro>
-        <título nombre = "Diez negritos"></título> 
+        <título></título> 
             <autor>Agatha Christie</autor> 
             <anio>1939</anio> 
             <genero>Novela policíaca</genero> 
             <idioma>Espaniol</idioma> 
             <sinopsis>Agatha Christie sigue a diez personas en una isla que son asesinadas uno a uno, mientras intentan descubrir al asesino entre ellos.</sinopsis>
-            <comentarios>
+            <comentarios user="Usuario12345">
                 <!--Un buen libro que dan ganas de leer cada vez más-->
                 <!--Este libro es muy raista-->
 
