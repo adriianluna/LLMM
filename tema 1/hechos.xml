@@ -3,7 +3,7 @@
 <hechos>
 
     <hecho>
-    <descripcion nombre= "IBM da aconocer el PC" ></descripcion>
+    <descripcion nombre="IBM da aconocer el PC" ></descripcion>
     <fecha>
             <dia>12</dia>
             <mes>8</mes>
@@ -12,7 +12,7 @@
     </hecho>
     
     <hecho>
-    <descripcion nombre = "Se funda google"></descripcion>
+    <descripcion nombre="Se funda google"></descripcion>
     <fecha>
             <dia>4</dia>
             <mes>9</mes>
@@ -21,7 +21,7 @@
     </hecho>
 
     <hecho>
-    <descripcion nombre = "Se funda Facebook"></descripcion>
+    <descripcion nombre="Se funda Facebook"></descripcion>
     <fecha>
             <dia>4</dia>
             <mes>2</mes>
