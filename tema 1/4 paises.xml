@@ -2,15 +2,15 @@
 
 <paises>
 
-    <nombre>Tailandia </nombre>
-        <Poblacion>71,1 millones habitantes</Poblacion>
-        <capital>Bangkok</capital>
-        <superficie> 513,120 km² </superficie>
+    <nombre>Alemania </nombre>
+        <Poblacion>83,3 millones habitantes</Poblacion>
+        <capital>Berlín</capital>
+        <superficie>357.592 km²</superficie>
 
-    <nombre>Nueva Zelanda</nombre>
-        <Poblacion>5,124 millones habitantes </Poblacion>
-        <capital>Wellington</capital>
-        <superficie>268,021 km²</superficie>
+    <nombre>Dinamarca</nombre>
+        <Poblacion>5 969 774  habitantes</Poblacion>
+        <capital>Copenhague</capital>
+        <superficie>42.952 km²</superficie>
         
     <nombre>Suiza </nombre>
         <Poblacion>8,960,705 habitantes</Poblacion>
