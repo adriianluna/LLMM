@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <biblioteca>
     <libro>
-        <título> Los secretos de la mente millonaria</título> 
+        <título nombre = "Los secretos de la mente millonaria"></título> 
             <autor>T. Harv Eker</autor> 
             <anio>2005</anio> 
-            <género>Libro de autoayuda</género> 
+            <genero>Libro de autoayuda</genero> 
             <idioma>Espaniol</idioma> 
             <sinopsis>Desarrollar una mentalidad de riqueza, concentrarse en la solución de problemas y tomar acción para lograr el éxito financiero.</sinopsis> 
             <comentarios> 
@@ -13,10 +13,10 @@
             </comentarios>
     </libro>
     <libro>
-        <título>Don Quijote de la Mancha</título> 
+        <título nombre = "Don Quijote de la Mancha"></título> 
             <autor>Miguel de Cervantes</autor> 
             <anio>1605</anio> 
-            <género>Género literario</género> 
+            <genero>Género literario</genero> 
             <idioma>Castellano antiguo</idioma> 
             <sinopsis>La novela narra las aventuras de Alonso Quijano, un viejo caballero que de tanto leer historias de caballería pierde la razón y decide convertirse en caballero andante para salir a resolver problemas e impartir justicia.</sinopsis> 
             <comentarios>
@@ -26,10 +26,10 @@
     </libro>
 
     <libro>
-        <título>Diez negritos</título> 
+        <título nombre = "Diez negritos"></título> 
             <autor>Agatha Christie</autor> 
             <anio>1939</anio> 
-            <género>Novela policíaca</género> 
+            <genero>Novela policíaca</genero> 
             <idioma>Espaniol</idioma> 
             <sinopsis>Agatha Christie sigue a diez personas en una isla que son asesinadas uno a uno, mientras intentan descubrir al asesino entre ellos.</sinopsis>
             <comentarios>
