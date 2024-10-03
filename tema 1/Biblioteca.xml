@@ -3,9 +3,9 @@
     <libro>
         <título> Los secretos de la mente millonaria</título> 
             <autor>T. Harv Eker</autor> 
-            <anio> 2005 </anio> 
+            <anio>2005</anio> 
             <género>Libro de autoayuda</género> 
-            <idioma> Espaniol </idioma> 
+            <idioma>Espaniol</idioma> 
             <sinopsis>Desarrollar una mentalidad de riqueza, concentrarse en la solución de problemas y tomar acción para lograr el éxito financiero.</sinopsis> 
             <comentarios> 
                 <!--Un libro que no da hechos solo da infomación -->
@@ -13,11 +13,11 @@
             </comentarios>
     </libro>
     <libro>
-        <título> Don Quijote de la Mancha</título> 
+        <título>Don Quijote de la Mancha</título> 
             <autor>Miguel de Cervantes</autor> 
-            <anio> 1605 </anio> 
-            <género> Género literario</género> 
-            <idioma> Castellano antiguo </idioma> 
+            <anio>1605</anio> 
+            <género>Género literario</género> 
+            <idioma>Castellano antiguo</idioma> 
             <sinopsis>La novela narra las aventuras de Alonso Quijano, un viejo caballero que de tanto leer historias de caballería pierde la razón y decide convertirse en caballero andante para salir a resolver problemas e impartir justicia.</sinopsis> 
             <comentarios>
                 <!-- Un libro muy importante y divertido para niños chicos y para gente mayor-->
@@ -26,11 +26,11 @@
     </libro>
 
     <libro>
-        <título> Diez negritos</título> 
+        <título>Diez negritos</título> 
             <autor>Agatha Christie</autor> 
-            <anio> 1939 </anio> 
-            <género>novela policíaca </género> 
-            <idioma> Espaniol </idioma> 
+            <anio>1939</anio> 
+            <género>Novela policíaca</género> 
+            <idioma>Espaniol</idioma> 
             <sinopsis>Agatha Christie sigue a diez personas en una isla que son asesinadas uno a uno, mientras intentan descubrir al asesino entre ellos.</sinopsis>
             <comentarios>
                 <!--Un buen libro que dan ganas de leer cada vez más-->
