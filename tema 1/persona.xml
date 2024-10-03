@@ -6,7 +6,7 @@
     <fecha_de_nacimiento>
         <dia>22</dia>
         <mes>1</mes>
-        <anio></anio>
+        <anio>1999</anio>
     </fecha_de_nacimiento>
 
 
@@ -16,7 +16,7 @@
 
 <persona>
     <nombre>Jose</nombre>
-    <ciudad>Caceres</ciudad>
+    <ciudad>Cáceres</ciudad>
     <fecha_de_nacimiento>
         <dia>12</dia>
         <mes>12</mes>
