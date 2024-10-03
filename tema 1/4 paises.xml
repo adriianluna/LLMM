@@ -3,8 +3,8 @@
 <paises>
 
     <nombre>Tailandia </nombre>
-        <Poblacion>   71,1 millones habitantes </Poblacion>
-        <capital>  Bangkok  </capital>
+        <Poblacion>71,1 millones habitantes</Poblacion>
+        <capital>Bangkok</capital>
         <superficie> 513,120 km² </superficie>
 
     <nombre>Nueva Zelanda</nombre>
@@ -13,9 +13,9 @@
         <superficie>268,021 km²</superficie>
         
     <nombre>Suiza </nombre>
-        <Poblacion>   8,960,705 habitantes </Poblacion>
-        <capital>  Berna  </capital>
-        <superficie> 41,285 km² </superficie>
+        <Poblacion>8,960,705 habitantes</Poblacion>
+        <capital>Berna</capital>
+        <superficie>41,285 km²</superficie>
 
     <nombre>Noruega</nombre>
         <Poblacion>5,550,203 habitantes</Poblacion>
