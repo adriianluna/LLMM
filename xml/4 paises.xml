@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paises>
+
+    <nombre>Alemania </nombre>
+        <Poblacion>83,3 millones habitantes</Poblacion>
+        <capital>Berlín</capital>
+        <superficie>357.592 km²</superficie>
+
+    <nombre>Dinamarca</nombre>
+        <Poblacion>5 969 774  habitantes</Poblacion>
+        <capital>Copenhague</capital>
+        <superficie>42.952 km²</superficie>
+        
+    <nombre>Suiza </nombre>
+        <Poblacion>8,960,705 habitantes</Poblacion>
+        <capital>Berna</capital>
+        <superficie>41,285 km²</superficie>
+
+    <nombre>Noruega</nombre>
+        <Poblacion>5,550,203 habitantes</Poblacion>
+        <capital>Wellington</capital>
+        <superficie>Oslo</superficie>
+</paises>
