@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <ag:contacto xmlns:ag="http://www.ejemplo.com/agenda">
+        <ag:nombre>Juan Pérez</ag:nombre>
+        <ag:emails>
+            <ag:email>juan.perez@example.com</ag:email>
+        </ag:emails>
+        <ag:telefonos>
+            <ag:telefono>+34 600 123 456</ag:telefono>
+        </ag:telefonos>
+        <ban:bandeja xmlns:ban="http://wwejemplo.com/correo">
+            <ban:correo>
+                <ban:remitente>juan.perez@example.com</ban:remitente>
+                <ban:destinatario>maria.lopez@example.com</ban:destinatario>
+                <ban:asunto>Reunión</ban:asunto>
+                <ban:cuerpo>Hola María, ¿podemos reunirnos mañana?</ban:cuerpo>
+            </ban:correo>
+        </ban:bandeja>
+    </ag:contacto>
+
+    <ag:contacto xmlns:ag="http://www.ejemplo.com/agenda">
+        <ag:nombre>María López</ag:nombre>
+        <ag:emails>
+            <ag:email>maria.lopez@example.com</ag:email>
+        </ag:emails>
+        <ag:telefonos>
+            <ag:telefono>+34 600 654 321</ag:telefono>
+        </ag:telefonos>
+        <ban:bandeja xmlns:ban="http://wwejemplo.com/correo">
+            <ban:correo>
+                <ban:remitente>maria.lopez@example.com</ban:remitente>
+                <ban:destinatario>juan.perez@example.com</ban:destinatario>
+                <ban:asunto>Reunión</ban:asunto>
+                <ban:cuerpo>Hola Juan, claro que sí.¿A las 10:00? </ban:cuerpo>
+            </ban:correo>
+        </ban:bandeja>
+    </ag:contacto>
+</agenda>
