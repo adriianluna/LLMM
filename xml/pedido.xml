@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <pedido>
+        <codigo pedido="código 1111"></codigo>
+        <destinatario> 
+            <nombre>José Antonio</nombre>
+            <apellidos>Lojo</apellidos>
+        </destinatario>
+        <articulos_pedidos> 
+            <artículo>Bicicleta A2020</artículo>  
+            <artículo>Un ordenador modelo 1345</artículo>
+        </articulos_pedidos>
+        <direccion> 
+            <calle>Calle Barco 4</calle>
+            <piso>Tercer piso letra A</piso>
+            <provincia>Málaga</provincia>
+            <código_postal>29004</código_postal>
+        </direccion>
+        <fecha-entrega>20-9-2019</fecha-entrega>
+
+    </pedido>
