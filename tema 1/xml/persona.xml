@@ -8,21 +8,13 @@
         <mes>1</mes>
         <anio>1999</anio>
     </fecha_de_nacimiento>
-
-
-
-
-</persona>
-
-<persona>
-    <nombre>Jose</nombre>
+   <nombre>Jose</nombre>
     <ciudad>Cáceres</ciudad>
     <fecha_de_nacimiento>
         <dia>12</dia>
         <mes>12</mes>
         <anio>2012</anio>
     </fecha_de_nacimiento>
-
 
 
 
