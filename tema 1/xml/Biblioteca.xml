@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <biblioteca>
     <libro>
-        <título></título> 
+        <título>Los secretos de la mente millorania</título> 
             <autor>T. Harv Eker</autor> 
             <anio>2005</anio> 
             <genero>Libro de autoayuda</genero> 
@@ -13,7 +13,7 @@
             </comentarios>
     </libro>
     <libro>
-        <título></título> 
+        <título>Don Quijote</título> 
             <autor>Miguel de Cervantes</autor> 
             <anio>1605</anio> 
             <genero>Género literario</genero> 
@@ -26,7 +26,7 @@
     </libro>
 
     <libro>
-        <título></título> 
+        <título>Diez negritos</título> 
             <autor>Agatha Christie</autor> 
             <anio>1939</anio> 
             <genero>Novela policíaca</genero> 
