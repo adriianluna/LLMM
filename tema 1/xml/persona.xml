@@ -6,10 +6,10 @@
     <fecha_de_nacimiento>
         <dia>22</dia>
         <mes>1</mes>
-        <anio>1999</anio>
+        <anio></anio>
     </fecha_de_nacimiento>
-   <nombre>Jose</nombre>
-    <ciudad>Cáceres</ciudad>
+    <nombre>Jose</nombre>
+    <ciudad>Caceres</ciudad>
     <fecha_de_nacimiento>
         <dia>12</dia>
         <mes>12</mes>
