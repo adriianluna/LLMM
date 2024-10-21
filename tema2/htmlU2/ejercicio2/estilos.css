@@ -1,0 +1,18 @@
+body{
+    font-family: Verdana;
+    margin: 12.px;
+    background: url(./assets/fondo.gif);
+    font-weight : normal;
+    color: darkblue;
+}
+
+h1{
+    font-family: Georgia;
+    margin: 36.px;
+    font-weight : bold; 
+    color: darkred; 
+}
+h2{
+    margin: 24.px;
+    font-weight : bold; 
+}

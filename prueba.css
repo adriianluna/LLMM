@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(206, 236, 247);
+    font-size: large;
+    font-family:Impact;
+    margin: 40px 20px 10px 30px; /* primero margen arriba, segundo margen derecha, tercero margen abajo y ultimo  margen iza*/
+
+}
+p {
+
+        font-size: 30px;/*Tamaño de la letra*/
+        color: darkorchid;
+        text-decoration: underline;
+        font-weight:400;
+}
+h1{
+
+    font-size : 30pt; /*Tamaño de letra: 36 puntos*/
+    font-weight : bolder; /* Estilo de letra: negrita*/
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*Tipo de letra: Verdana, Arial */
+    text-decoration : underline; /* Decoración del texto: subrayado/
+    text-align : center; /* alineación del texto: centro/
+    background-color : white; /* Color de fondo*/
+    border-style: inset; /* Estilo del borde: solido*/
+    border-color: rgb(255, 0, 179);/* Color del borde: azul*/
+    padding: 10px; /* Ancho del borde: 2 pixeles*/
+    border-width: 200px; 
+}
