@@ -12,16 +12,17 @@ body{
 h1{
 
     
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
     font-weight: bold;
     color: darkblue;
     text-align: center;
     background-color: white;
     /*Boder es todo los bordes*/
-    border-top:  5px;
-    margin: 20px auto;
-
+    border-top: solid 2px darkblue;
+    border-bottom: solid 2px darkblue;
+    margin: 20px auto ;
+    padding: 2px;
 }
 
 h2{
@@ -47,7 +48,8 @@ h2{
     /*Margin drch*/
     margin-right: auto;
     border-radius: 25px;
-    box-shadow: 2px 2px 5px black; 
+    box-shadow: 2px 2px 5px rgb(0, 0, 0); 
+    padding: 10px;
 
 }
 .FormaciónAcademica{
@@ -70,7 +72,7 @@ h2{
     border-radius: 25px;
     /*Sombras de cualquir elemento en este caso del borde*/
     box-shadow: 2px 2px 5px black; 
-
+    padding: 10px;
 
 
 
