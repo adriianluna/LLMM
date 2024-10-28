@@ -1,0 +1,53 @@
+h1{
+    font-size: 36px;
+    color: red;
+    background-color: black;
+    text-align: center;
+    
+    padding: 10px;
+
+
+
+
+}
+nav{
+    overflow: hidden;
+    
+    background-color: rgb(207, 207, 207);
+    margin: 0px 10px 0px 10px;
+    font-size: large;
+    padding: 10px;
+    list-style:none;
+    border: solid 2px black;
+}
+ul{
+    display: inline;
+    list-style:none ;
+    list-style-type: circle;
+    margin: 0px 10px 0px 10px;
+    display: inline;
+    
+
+
+}
+a:link{
+
+    list-style:none ;
+    list-style-type: circle;
+    margin: 0px 10px 0px 10px;
+    display: inline;
+    color: black;
+}
+a:visited{
+
+ 
+
+
+}
+a:hover{
+
+ 
+    background-color: red;
+    color: white;
+   
+}
