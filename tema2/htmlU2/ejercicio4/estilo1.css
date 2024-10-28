@@ -16,23 +16,51 @@ h1{
 }
 ul{
 
+ 
     color: darkred;
-
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(240, 158, 158);
     border: 3px solid;
     /*Margen superior*/
-    margin-top: 20px;
-    /*Margen inferior*/
-    margin-bottom: 20px;
-    /*Margin izq*/
-    margin-left: auto;
-    /*Margin drch*/
-    margin-right: auto;
+    margin: 20px 0px 20px 0px;
     border-radius: 25px;
     box-shadow: 2px 2px 5px rgb(0, 0, 0); 
-    padding: 2px;
+    padding: 20px;
+    width: 10%;
     
 
+}
+
+li{
+
+   
+
+}
+a{
+    color: blue;
+}
+a:link{
+    
+    
+    list-style: none;
+    /* Enlace sin el subrayado*/
+    text-decoration: none;
+    color: blue;
+
+   
+}
+a:visited{
+
+ 
+
+
+}
+
+a:hover{
+
+ 
+    
+    color: white;
+   
 }
