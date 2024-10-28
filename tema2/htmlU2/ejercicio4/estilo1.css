@@ -32,11 +32,6 @@ ul{
 
 }
 
-li{
-
-   
-
-}
 a{
     color: blue;
 }
@@ -52,7 +47,7 @@ a:link{
 }
 a:visited{
 
- 
+    
 
 
 }
@@ -63,4 +58,10 @@ a:hover{
     
     color: white;
    
+}
+ul{
+
+    list-style-image: url("./assets/carpeta.gif");
+
+
 }
