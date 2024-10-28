@@ -14,7 +14,7 @@ h1{
     margin: 20px auto ;
     padding: 2px;
 }
-table{
+ul{
 
     color: darkred;
 
@@ -32,7 +32,7 @@ table{
     margin-right: auto;
     border-radius: 25px;
     box-shadow: 2px 2px 5px rgb(0, 0, 0); 
-    padding: 10px;
+    padding: 2px;
     
 
 }
