@@ -40,13 +40,7 @@ h2{
     background-color: rgb(240, 158, 158);
     border: 3px solid;
     /*Margen superior*/
-    margin-top: 20px;
-    /*Margen inferior*/
-    margin-bottom: 20px;
-    /*Margin izq*/
-    margin-left: auto;
-    /*Margin drch*/
-    margin-right: auto;
+    margin: 20px auto 20px auto;
     border-radius: 25px;
     box-shadow: 2px 2px 5px rgb(0, 0, 0); 
     padding: 10px;
