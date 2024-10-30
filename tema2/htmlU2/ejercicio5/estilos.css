@@ -1,11 +1,18 @@
-h1{
+body{
 
-    color: red;
+    
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
     font-weight: normal black;
     margin: auto;
     background-color: #E9ECFC;
     /*ancho de página*/
+    width: 800px;
+}
+h1{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
 
 }
