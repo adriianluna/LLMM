@@ -1,3 +1,10 @@
+
+body{
+
+    background-color: rgb(146, 146, 90);
+}
+
+
 h1{
     font-size: 36px;
     color: red;
@@ -6,13 +13,10 @@ h1{
     
     padding: 10px;
 
-
-
-
 }
-nav{
-    overflow: hidden;
+nav {
     
+    overflow: hidden;
     background-color: rgb(207, 207, 207);
     margin: 0px 10px 0px 10px;
     font-size: large;
@@ -20,12 +24,26 @@ nav{
     list-style:none;
     border: solid 2px black;
 }
+nav ul{
+    /*margen izq*/
+    padding-left: 0%;
+
+}
+
+nav ul li{
+
+    display: inline;
+    
+
+
+}
 ul{
     display: inline;
     list-style:none ;
     list-style-type: circle;
-    margin: 0px 10px 0px 10px;
     display: inline;
+    margin: 0px 10px 0px 10px;
+
     
 
 
@@ -37,19 +55,24 @@ a:link{
     margin: 0px 10px 0px 10px;
     display: inline;
     color: black;
+    /*para quitar la linea del enlace*/
     text-decoration: none;
     color: black;
+    padding: 17px;
+
 }
 a:visited{
 
     color: black;
 
+    padding: 17px;
 
 }
 a:hover{
 
- 
+    
     background-color: red;
     color: white;
-   
+    padding: 17px;
+    
 }
