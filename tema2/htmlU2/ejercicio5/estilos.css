@@ -7,21 +7,33 @@ body{
     margin: auto;
     background-color: #E9ECFC;
     /*ancho de página*/
-    width: 800px;
+    width: 80%;
 }
 h1{
     color: red;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     text-align: center;
-
+    font-size: 36px;
 }
 h2{
 
-    font-family: 'Times New Roman', Times, serif 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
     font-weight: bold;
     color: blue;
-    /*aliniacion*/
+    text-align: right;
+    border-bottom: 2px solid;
+    
+    
+}
+ol{
 
-    border:;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+
+
+
+
+
 }

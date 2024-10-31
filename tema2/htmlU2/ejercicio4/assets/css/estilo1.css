@@ -47,7 +47,10 @@ a:link{
 }
 a:visited{
 
-    
+    list-style: none;
+    /* Enlace sin el subrayado*/
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
 
 
 }

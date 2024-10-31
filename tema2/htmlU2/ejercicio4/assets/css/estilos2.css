@@ -23,30 +23,18 @@ nav {
     padding: 10px;
     list-style:none;
     border: solid 2px black;
-}
-nav ul{
-    /*margen izq*/
     padding-left: 0%;
-
 }
+
 
 nav ul li{
 
     display: inline;
     
-
-
 }
 ul{
     display: inline;
-    list-style:none ;
-    list-style-type: circle;
-    display: inline;
-    margin: 0px 10px 0px 10px;
-
     
-
-
 }
 a:link{
 
@@ -64,7 +52,6 @@ a:link{
 a:visited{
 
     color: black;
-
     padding: 17px;
 
 }
