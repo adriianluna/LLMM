@@ -8,7 +8,7 @@ body{
     background-color: #E9ECFC;
     /*ancho de página*/
     width: 80%;
-    text-align: justify;
+    text-align: center;
 }
 h1{
     color: red;
@@ -42,7 +42,7 @@ ol{
     margin: 20px 50px 20px 50px;
     padding: 20px 20px 20px 30px;
 }
-.Presupuesto{
+.presupuesto{
 
     background-color: white;
     text-align: center;
@@ -105,4 +105,8 @@ a:hover{
     padding-right: 5px;
     
 }
+p{
 
+    text-align: justify;
+
+}
