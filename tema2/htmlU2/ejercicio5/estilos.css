@@ -8,6 +8,7 @@ body{
     background-color: #E9ECFC;
     /*ancho de página*/
     width: 80%;
+    text-align: justify;
 }
 h1{
     color: red;
@@ -24,7 +25,7 @@ h2{
     color: blue;
     text-align: right;
     border-bottom: 2px solid;
-    
+    padding: 20px 20px 20px 20px;
     
 }
 ol{
@@ -39,8 +40,7 @@ ol{
     /*ancho de la caja*/
     width: 50%;
     margin: 20px 50px 20px 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px 20px 20px 30px;
 }
 .Presupuesto{
 
@@ -50,10 +50,12 @@ ol{
     font-size: 24px;
     margin: 20px auto 20px auto;
     padding: 3px;
+    text-align: center;
 
 }
 .Euros{
     color: red;
+    
 }
 a:link{
 
@@ -81,13 +83,26 @@ a:hover{
     text-align: center;
 
 }
+.Portada{
+
+    text-align: center;
+
+
+}
 .Honda1{
 
     float: right;
+    display: inline;
+    padding-left: 10px;
+    
+
 
 }
 .Honda2{
 
+    float: left;
+    display: inline;
+    padding-right: 5px;
     
-
 }
+
