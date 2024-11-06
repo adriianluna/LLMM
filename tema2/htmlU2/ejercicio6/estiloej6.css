@@ -5,7 +5,7 @@ body{
     font-size: 12px;
     font-weight: normal;
     color: black;
-
+    background-color: rgb(241, 209, 250);
 }
 table.Horario{
 
@@ -32,7 +32,7 @@ table.Horario td,th{
 /* Le he quitado el nombre de la clase encabezado para que pille las horas*/
 table.Horario th{
 
-    background-color: yellow;
+    background-color: rgb(252, 252, 128);
     color: rgb(92, 92, 5);
     border-bottom: solid 1px;
 
@@ -41,12 +41,12 @@ table.Horario th{
 table.Horario tr.azulClaro td{
 
     
-    background-color: skyblue;
+    background-color: rgb(53, 190, 245);
 
 }
 table.Horario tr.azulOscuro td{
 
-    background-color: rgb(63, 63, 207);
+    background-color: rgb(73, 70, 245);
     
 
 }
