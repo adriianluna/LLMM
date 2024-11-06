@@ -13,6 +13,7 @@ table.Horario{
     text-align: center;
     /*Para fusionar bordes */
     border-collapse: collapse;
+    border: 3px solid;
 }
 table.Horario caption{
 
@@ -22,20 +23,21 @@ table.Horario caption{
     margin: auto;
 
 
-
 }
 table.Horario td,th{
 
     padding: 10px;
 
 }
-table.Horario tr.Encabezado th{
+/* Le he quitado el nombre de la clase encabezado para que pille las horas*/
+table.Horario th{
 
     background-color: yellow;
     color: rgb(92, 92, 5);
-    border-bottom: solid 2px;
+    border-bottom: solid 1px;
 
 }
+
 table.Horario tr.azulClaro td{
 
     
@@ -48,7 +50,13 @@ table.Horario tr.azulOscuro td{
     
 
 }
+table.Horario tr.recreo td{
 
+    background-color: aqua;
+    font-size: 20px;
+    text-align: center;
+
+}
 
 
 
