@@ -6,25 +6,32 @@
     <meta name="description" content ="Primer formulario"/>
     <meta name="Author" content="Adrián Luna Domínguez"/>
     <meta name="Keywords" content="etiquetas, pagina"/>
-    <link rel="stylesheet" href="estilos1.css" type="text/css">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
 </head>
 <body>
-    <form id="formulario1" name="formularioSimple" method="post" ></form>
+    <form id="formulario1" name="formularioComplejo" method="post" ></form>
 
     <!--Para poner el recuadro-->
 <fieldset>
-    <legend><p>Pedido de Pizza</p></legend>
+    <h1>Pedido de Pizza</h1>
 <div>
 
     <label for="nombre">Nombre</label>
-    <input type="text" id="nombre" name="nombre" placeholder="Introduzca su nombre" size="60"/>
+    <input type="text" id="nombre" name="nombre" placeholder="Introduzca su nombre" size="60" required/>
     
 </div>
 
 <div>
 
     <label for="Direccion">Direccion</label>
-    <input type="text" id="Direccion" name="Direccion" placeholder="Introduzca su direccion" size="80"/>
+    <input type="text" id="Direccion" name="Direccion" placeholder="Introduzca su direccion" size="80" required/>
+      
+</div>
+
+<div>
+
+    <label for="Edad">Edad</label>
+    <input type="number" id="Edad" name="edad" min="25" maz="65" placeholder="Introduzca su edad" size="100" required/>
       
 </div>
 
@@ -50,7 +57,7 @@
 
 <div>
 
-    <label for="tarjeta">Tarjeta</label>
+    <label for="tarjeta">Forma de pago</label>
     <select name="tarjeta" id="tarjeta">
         <option>Visa</option>
         <option>Bizum</option>
@@ -62,7 +69,7 @@
 
 <div>
 
-    <label for="comentario">Comentario</label>
+    <label for="comentario">Instrucciones especiales</label>
     <!--rows establece el numero de filas (subespacios horizontales) y cols el de columnas ( subespacios verticales)-->
     <textarea cols="40" rows="5" cols="20" maxlength="100" id="comentarios" name="comentarios"></textarea>
     

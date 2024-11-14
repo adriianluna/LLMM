@@ -1,0 +1,42 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: black;
+    background-color: rgb(185, 185, 185);
+    width: 80%;
+    margin: auto;
+    
+}
+form{
+
+    background-color:  #ffcc99;
+
+
+}
+h1{
+
+    background-color: orange;
+    text-align: center;
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+
+}
+label{
+
+    background-color: rgb(201, 119, 65) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px ;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+/*Alinerar los label ( nombre...)*/
+    margin-right: 30px;
+    width: 10%;
+    float: left;
+
+}
