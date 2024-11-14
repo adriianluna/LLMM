@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content ="Primer formulario"/>
+    <meta name="Author" content="Adrián Luna Domínguez"/>
+    <meta name="Keywords" content="etiquetas, pagina"/>
+    <link rel="stylesheet" href="form" type="text/css">
+</head>
+<body>
+    <!--Para poner el recuadro-->
+<fieldset>
+    <legend><p>Pedido de Pizza</p></legend>
+<div>
+
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Introduzca su nombre" size="60"/>
+    
+</div>
+
+<div>
+
+    <label for="Direccion">Direccion</label>
+    <input type="text" id="Direccion" name="Direccion" placeholder="Introduzca su direccion" size="80"/>
+      
+</div>
+
+<div>
+
+    <label for="ingredientes">Ingredientes</label>
+    <!--checked para tener una opcion por defecto-->
+    <input type="radio" id="Ingredientes" name="Ingredientes" checked>Queso</input>
+    <input type="radio" id="Ingredientes" name="Ingredientes">Cebolla</input>
+    <input type="radio" id="Ingredientes" name="Ingredientes">Pimiento</input>
+    
+</div>
+
+<div>
+
+    <label for="tamaño">Tamaño</label>
+    <!--checked para tener una opcion por defecto-->
+    <input type="checkbox" id="tamaño" name="tamaño" checked>Pequeña </input>
+    <input type="checkbox" id="tamaño" name="tamaño">Mediana</input>
+    <input type="checkbox" id="tamaño" name="tamaño">Grande</input>
+
+</div>
+
+<div>
+
+    <label for="tarjeta">Tarjeta</label>
+    <select name="tarjeta" id="tarjeta">
+        <option>Visa</option>
+        <option>Bizum</option>
+        <option >Paypal</option>
+  
+    </select>
+
+</div>
+
+<div>
+
+    <label for="comentario">Comentario</label>
+    <!--rows establece el numero de filas (subespacios horizontales) y cols el de columnas ( subespacios verticales)-->
+    <textarea cols="40" rows="5" cols="20" maxlength="100" id="comentarios" name="comentarios"></textarea>
+    
+</div>
+
+<div>
+
+    <input type="submit" value="Enviar"/>
+    <input type="submit" value="Borrar"/>
+          
+</div>
+
+</body>
+</html>

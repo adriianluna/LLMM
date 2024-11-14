@@ -1,0 +1,27 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: darkblue;
+    width: 90%;
+    margin: auto;
+    
+}
+label{
+/*Alinerar los label ( nombre...)*/
+    margin-right: 30px;
+    width: 10%;
+    float: left;
+
+}
+input{
+/*Para poner mas espacio por todo los lados*/
+    padding: 5px;
+
+}
+div{
+/*se paracion de cada div*/
+    margin-bottom: 10px;
+
+}
