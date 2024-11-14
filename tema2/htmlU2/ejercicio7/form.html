@@ -81,9 +81,7 @@
           
 </div>
 
-<div>
 
-</div>
 </fieldset>
 
 <h1>Ejercicio2</h1>
@@ -98,7 +96,8 @@
 <div>
 
     <label for="comentario">Comentario</label>
-    <textarea cols="40" rows="5" id="comentarios" name="comentarios"></textarea>
+    <!--rows establece el numero de filas (subespacios horizontales) y cols el de columnas ( subespacios verticales)-->
+    <textarea cols="40" rows="10" cols="35" maxlength="100" id="comentarios" name="comentarios"></textarea>
 </div>
 
 <div>
@@ -120,9 +119,19 @@
 
     <label for="comida">Elige tu comida favorita</label>
     <select name="comida" id="comida">
-    <option value="Kebab">Kebab</option>
-    <option value="Pizza">Pizza</option>
-    <option value="Ensalada">Ensalada</option>
+
+    <optgroup label="Platos">
+        <option>Kebab</option>
+        <option>Pizza</option>
+    </optgroup>
+    <optgroup label="Entrantes">
+        <option >Ensalada</option>
+    </optgroup>
+
+    <optgroup label="Postres">
+        <option>Helado</option>
+        <option>Pizza dulce</option>
+    </optgroup>
     </select>
 </div>
 
@@ -138,19 +147,21 @@
 <div>
 
     <label for="comidaFavorita">Elige tu comida favorita:</label>
-    <input type="checkbox" id="comidaFavorita" name="comidaFavorita">Kebab</input>
-    <input type="checkbox" id="comidaFavorita" name="comidaFavorita">Ensalada</input>
-    <input type="checkbox" id="comidaFavorita" name="comidaFavorita">Ensalada</input>
-    <input type="checkbox" id="comidaFavorita" name="comidaFavorita">Hamburguesa</input>
+    <!--checked para tener una opcion por defecto-->
+    <input type="checkbox" id="comidaFavorita" name="comidaFavorita" checked>Kebab</input>
+    <input type="checkbox" id="comidaFavorita" name="comidaFavorita" checked>Ensalada</input>
+    <input type="checkbox" id="comidaFavorita" name="comidaFavorita" checked>Ensalada</input>
+    <input type="checkbox" id="comidaFavorita" name="comidaFavorita" checked>Hamburguesa</input>
 
 </div>
 
 <div>
 
     <label for="comidaFavorita">Elige tu comida favorita:</label>
-    <input type="radio" id="pago" name="pago">Vale</input>
-    <input type="radio" id="pago" name="pago">Tarjeta</input>
-    <input type="radio" id="pago" name="pago">Cash</input>
+    <!--checked para tener una opcion por defecto-->
+    <input type="radio" id="pago" name="pago" checked>Vale </input>
+    <input type="radio" id="pago" name="pago" checked>Tarjeta</input>
+    <input type="radio" id="pago" name="pago" checked>Cash</input>
 
 </div>
 
