@@ -14,77 +14,106 @@
     <!--Para poner el recuadro-->
 <fieldset>
     <h1>Pedido de Pizza</h1>
-<div>
+<div class="naranja">
+    <div>
 
-    <label for="nombre">Nombre</label>
-    <input type="text" id="nombre" name="nombre" placeholder="Introduzca su nombre" size="60" required/>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Introduzca su nombre" size="60" required/>
     
-</div>
+    </div>
 
-<div>
+    <div>
 
-    <label for="Direccion">Direccion</label>
-    <input type="text" id="Direccion" name="Direccion" placeholder="Introduzca su direccion" size="80" required/>
+        <label for="Direccion">Direccion</label>
+        <input type="text" id="Direccion" name="Direccion" placeholder="Introduzca su direccion" size="60" required/>
       
-</div>
+    </div>
 
-<div>
+    <div>
 
-    <label for="Edad">Edad</label>
-    <input type="number" id="Edad" name="edad" min="25" maz="65" placeholder="Introduzca su edad" size="100" required/>
+        <label for="Edad">Edad</label>
+        <input type="number" id="Edad" name="edad" min="25" maz="65" placeholder="Introduzca su edad" size="100" required/>
       
+    </div>
 </div>
+<div class="Bloque">
+    <div class="linea">
+        <p>Ingredientes</p>
+        <!--checked para tener una opcion por defecto-->
+        <div>
 
-<div>
+            <input type="radio" id="queso" name="Ingredientes" value="queso" checked/>
+            <label for="queso">Queso</label>
 
-    <label for="ingredientes">Ingredientes</label>
-    <!--checked para tener una opcion por defecto-->
+        </div>
+        <div>
 
-    <div>
-    <input type="radio" id="Ingredientes" name="Ingredientes" checked/>
-    <label for="ingredientes">Queso</label>
+            <input type="radio" id="cebolla" name="ingredientes" value="cebolla"/>
+            <label for="cebolla">Cebolla</label>
+
+        </div>
+        <div>
+            <input type="radio" id="pimiento" name="ingredientes" value="pimiento"/>
+            <label for="pimiento">Pimiento</label>
+
+        </div>
+    </div>
+    
     </div>
 
-    <div>
-    <input type="radio" id="Ingredientes" name="Ingredientes">Cebolla</input>
+    <div class="linea">
+
+        <p>Tamaño</p>
+        <!--checked para tener una opcion por defecto-->
+        <div>
+
+            <input type="checkbox" id="pequeña" name="tamaño" value="pequeña" checked/>
+            <label for="pequeña">Pequeña</label>
+
+        </div>
+        <div>
+
+            <input type="checkbox" id="mediana" name="tamaño" value="mediana"/>
+            <label for="mediana">Mediana</label>
+
+        </div>
+        <div>
+            <input type="checkbox" id="grande" name="tamaño" value="grande"/>
+            <label for="gande">Grande</label>
+
+        </div>
+
+   
     </div>
-
-    <div>
-    <input type="radio" id="Ingredientes" name="Ingredientes">Pimiento</input>
-    </div>
-
-</div>
-
-<div>
-
-    <label for="tamaño">Tamaño</label>
-    <!--checked para tener una opcion por defecto-->
-    <input type="checkbox" id="tamaño" name="tamaño" checked>Pequeña </input>
-    <input type="checkbox" id="tamaño" name="tamaño">Mediana</input>
-    <input type="checkbox" id="tamaño" name="tamaño">Grande</input>
-
-</div>
-
-<div>
-
-    <label for="tarjeta">Forma de pago</label>
-    <select name="tarjeta" id="tarjeta">
-        <option>Visa</option>
-        <option>Bizum</option>
-        <option >Paypal</option>
+    <div class="linea">
+        <div>
+            
+            <p>Forma de pago</p>
+            <select name="tarjeta" id="tarjeta">
+                <option value="visa">Visa</option>
+                <option value="bizum">Bizum</option>
+                <option value="paypal">Paypal</option>
   
-    </select>
+            </select>
+
+        </div>
+    </div>
+
+
+
 
 </div>
 
-<div>
-
-    <label for="comentario">Instrucciones especiales</label>
-    <!--rows establece el numero de filas (subespacios horizontales) y cols el de columnas ( subespacios verticales)-->
-    <textarea cols="40" rows="5" cols="20" maxlength="100" id="comentarios" name="comentarios"></textarea>
     
+<div>
+    <div>
+        <!--Preguntar-->
+        <p>Instrucciones especiales</p>
+        <!--rows establece el numero de filas (subespacios horizontales) y cols el de columnas ( subespacios verticales)-->
+        <textarea cols="40" rows="5" cols="20" maxlength="100" id="comentarios" name="comentarios" ></textarea>
+    
+    </div>
 </div>
-
 <div>
 
     <input type="submit" value="Enviar"/>
