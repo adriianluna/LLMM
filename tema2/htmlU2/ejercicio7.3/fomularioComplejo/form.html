@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilos.css" type="text/css">
 </head>
 <body>
-    <form id="formulario1" name="formularioComplejo" method="post" ></form>
+    <form id="formulario1" name="formularioComplejo" method="post" >
 
     <!--Para poner el recuadro-->
 <fieldset>
@@ -39,10 +39,20 @@
 
     <label for="ingredientes">Ingredientes</label>
     <!--checked para tener una opcion por defecto-->
-    <input type="radio" id="Ingredientes" name="Ingredientes" checked>Queso</input>
+
+    <div>
+    <input type="radio" id="Ingredientes" name="Ingredientes" checked/>
+    <label for="ingredientes">Queso</label>
+    </div>
+
+    <div>
     <input type="radio" id="Ingredientes" name="Ingredientes">Cebolla</input>
+    </div>
+
+    <div>
     <input type="radio" id="Ingredientes" name="Ingredientes">Pimiento</input>
-    
+    </div>
+
 </div>
 
 <div>
@@ -81,6 +91,6 @@
     <input type="submit" value="Borrar"/>
           
 </div>
-
+</form>
 </body>
 </html>
