@@ -13,9 +13,9 @@
 
         <!--Para poner el recuadro-->
     <fieldset>
-        <legend><h1>Pedido de Pizza</h1></legend>
+        <legend><h1>Datos de compra</h1></legend>
     
-    <div>
+    <div class="linea">
         <div class="requeridos">
     
             <label for="nombre">Nombre</label>
@@ -33,10 +33,16 @@
         <div class="requeridos">
     
             <label for="Edad">Edad</label>
-            <input type="number" id="Edad" name="edad" min="25" maz="65" placeholder="Introduzca su edad" size="100" required/>
+            <input type="number" id="Edad" name="edad"  placeholder="Introduzca su edad" size="100"  required/>
           
         </div>
+        <div class="requeridos">
     
+            <label for="nombre">Precio del coche</label>
+            <input type="number" id="nombre" name="nombre" placeholder="Introduzca el precio" size="60" required/>
+          
+        </div>
+    </div>
         <div class="linea">
             <div> 
                 <p>Forma de pago</p>
@@ -44,6 +50,7 @@
                     <option value="visa">Visa</option>
                     <option value="bizum">Bizum</option>
                     <option value="paypal">Paypal</option>
+                    <option value="paypal">Negro</option>
       
                 </select>
     
@@ -53,7 +60,7 @@
     
     
     
-    </div>
+   
     
         
     
