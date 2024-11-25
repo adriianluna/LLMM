@@ -52,10 +52,15 @@ p{
 
     background-color: rgb(201, 119, 65) ;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14px ;
+    font-size: 24px ;
     color: white;
     font-weight: bold;
-    
+    display: block;
+    clear: both;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+   
 }
 .bloque{
 
@@ -73,19 +78,8 @@ div.bloque2 label{
 
 }
 
-p{
 
-    font-size: 20px;
-    display: block;
-    clear: both;
-    margin-left: 1px;
-    margin-bottom: 10px;
-    text-align: center;
-    color: rgb(250, 250, 250);
-
-
-}
-.linea{
+div.linea{
 
     display: inline;
     width: 25%;
@@ -94,12 +88,12 @@ p{
 
 
 }
+
 div.bloque label{
 
     display: inline;
     font-weight: bold;
-    width: 100px;
-    float: left;
+    margin: auto;
 
 }
 div.texto{
