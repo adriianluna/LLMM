@@ -1,0 +1,40 @@
+body{
+
+    width: 60%;
+    margin: auto;
+    padding: 14px;
+    background-color: #fcd4ee;
+
+}
+div.requeridos label{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px ;
+    font-weight: bold;
+    display: inline;
+    
+    /*Alinerar los label ( nombre...)*/
+    margin-right: 30px;
+    width: 10%;
+    float: left;
+
+
+
+}
+div.linea{
+
+    display: inline;
+    width: 12%;
+    
+    padding: 15px;
+    clear: none;
+    
+}
+
+
+fieldset{
+
+    background-color: rgb(238, 237, 236);
+
+
+}
