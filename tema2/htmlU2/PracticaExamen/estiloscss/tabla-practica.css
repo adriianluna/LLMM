@@ -1,0 +1,43 @@
+table.tabla{
+
+    border-collapse: collapse;
+    margin: auto;
+    width: 90%;
+    border: 2px solid rgb(27, 27, 27);
+    box-shadow: 2px 2px 2px 5px rgba(245, 1, 1, 0.2);
+   
+}
+table.tabla caption{
+
+    font-size: large;
+    font-family: fantasy;
+    color: blueviolet;
+    margin-bottom: 12px;
+
+}
+table.tabla tr.encabezado{
+
+    background-color: blue;
+    color: white;
+
+}
+table.tabla tr.rojo{
+
+    background-color: red;
+    color: rgb(182, 178, 178);
+
+
+}
+table.tabla tr.celda1 th{
+
+    background-color: yellow;
+    color: rgb(182, 178, 178);
+
+   
+}
+table.tabla tr.celda1{
+
+    border-bottom: dotted;
+
+
+}
