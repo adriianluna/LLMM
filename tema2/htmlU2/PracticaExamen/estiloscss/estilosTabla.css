@@ -1,0 +1,63 @@
+body{
+
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+    background-color: rgb(241, 209, 250);
+}
+table.horario{
+
+    margin: auto;
+    text-align: center;
+    /*Para fusionar bordes */
+    border-collapse: collapse;
+    border: 3px solid;
+}
+table.horario caption{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: green;
+    margin: auto;
+
+
+}
+/**todo*/
+table.horario td,th{
+
+    padding: 10px;
+
+}
+/* Le he quitado el nombre de la clase encabezado para que pille las horas*/
+table.horario th{
+
+    background-color: rgb(252, 252, 128);
+    color: rgb(92, 92, 5);
+    border-bottom: solid 1px;
+
+}
+
+table.horario tr.azul-claro td{
+
+    
+    background-color: rgb(53, 190, 245);
+
+}
+table.horario tr.azul-oscuro td{
+
+    background-color: rgb(73, 70, 245);
+    
+
+}
+table.horario tr.recreo td{
+
+    background-color: aqua;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+
