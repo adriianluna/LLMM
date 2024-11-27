@@ -38,19 +38,19 @@ ul{
 }
 a:link{
 
-    list-style:none ;
-    list-style-type: circle;
+    
+    list-style: none;
     margin: 0px 10px 0px 10px;
-    display: inline;
+    /**display: inline;*/
     color: black;
     /*para quitar la linea del enlace*/
     text-decoration: none;
-    color: black;
     padding: 17px;
 
 }
 a:visited{
 
+    list-style: none;
     color: black;
     padding: 17px;
 
