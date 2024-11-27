@@ -40,6 +40,14 @@ div.Tamaño img{
     margin-bottom: 10px;
     margin-right: 20px;
     
+    
+}
+div.linea img{
+
+    height: 150px;
+    width: 300px;
+    margin-left: 12px;
+
 }
 .Motor{
 
@@ -56,7 +64,12 @@ div.Tamaño img{
     text-align: center;
 
 }
+div.Asientos img{
 
+    width: 700px;
+    height: 400px;
+
+}
 
 
 div.linea p{

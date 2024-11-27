@@ -25,3 +25,18 @@ div {
     padding: 25px;
     width: 50%;
 }
+a:link{
+
+    text-decoration: none;
+    
+}
+a:visited{
+
+    color: rgb(255, 255, 255);
+
+}
+a:hover{
+
+    color: red;
+
+}

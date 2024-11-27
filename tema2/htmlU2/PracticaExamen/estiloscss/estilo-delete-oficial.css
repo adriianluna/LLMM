@@ -1,0 +1,41 @@
+body{
+
+    margin: auto;
+    width: 80%;
+
+}
+h1{
+
+    text-align: center;
+
+    color: brown;
+
+}
+img{
+    
+    height: 200px;
+    width: 150px;
+    
+
+}
+.foto1{
+
+
+    float: left;
+    display: inline;
+    margin-right: 12px;
+
+}
+.foto2{
+
+    float: right;
+    display: inline;
+    margin-left: 12px;
+
+}
+div.moto{
+
+   
+    
+
+}
