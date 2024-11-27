@@ -90,5 +90,10 @@ h2{
 text-align: center;
 
 }
+div.alinear p {
 
+    display: flex;
+    margin-left: 150px;
+
+}
 

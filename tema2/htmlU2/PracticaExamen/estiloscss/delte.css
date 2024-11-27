@@ -1,0 +1,31 @@
+body{
+
+    margin: auto;
+    width: 80%;
+
+}
+h1{
+
+    font-size: 36px;
+    text-align: center;
+
+}
+img{
+
+    height: 100px;
+    width: 200px;
+
+}
+.derecha img{
+
+    display: inline;
+    float: right;
+    padding: 6px;
+
+}
+.izq img{
+
+    display: inline;
+    float: left;
+    margin-right: 8px;
+}

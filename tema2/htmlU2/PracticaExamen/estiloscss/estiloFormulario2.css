@@ -7,6 +7,7 @@ body{
     margin: auto;
     
     
+    
 }
 fieldset{
 
@@ -33,7 +34,9 @@ h1{
     font-size: 11px;
     font-weight: normal;
     text-align: left;
-    width: 100px;
+    /**width: 100px;*/
+    text-align: center;
+    
 
 }
 
@@ -41,23 +44,27 @@ h1{
 
     margin: 7px 0 0 0;
     margin-left: 20px; 
-    padding:3px;
+    padding: 3px;
+    
+    
 
     
 }
 .requeridos label{
 
+    
     background-color: rgb(201, 119, 65) ;
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px ;
     color: white;
     font-weight: bold;
+    text-align: center;
     
     
     /*Alinerar los label ( nombre...)*/
     margin-right: 30px;
     /*tamño de los label de los requeridos*/
-    width: 15%;
+    width: 8%;
     float: left;
 }
 
@@ -80,7 +87,7 @@ div.encabezado {
 
     background-color: rgb(201, 119, 65) ;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 24px ;
+    font-size: 20px ;
     color: white;
     font-weight: bold;
     display: block;
@@ -99,6 +106,7 @@ div.linea{
     float: left;
     padding: 15px;
     margin: auto;
+    margin-bottom: 10px;
 
 
 }
