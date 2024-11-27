@@ -1,8 +1,8 @@
 body{
 
-    width: 60%;
+    width: 70%;
     margin: auto;
-    padding: 14px;
+    padding: 18px;
     background-color: #fcd4ee;
 
 }
@@ -21,6 +21,36 @@ div.requeridos label{
 
 
 }
+div.texto{
+
+    text-align: center;
+
+}
+div.texto p{
+
+    font-size: 25px;
+    background-color: aquamarine;
+    border-bottom: black solid 2px;
+    width: 80%;
+    margin: auto;
+}
+div.linea p{
+
+    width: 20%;
+    text-align: left;
+    
+
+}
+.columna{
+
+    display: block;
+    clear: both;
+    margin: 15px;
+    width: 100%;
+}
+
+
+
 div.linea{
 
     display: inline;
@@ -30,6 +60,12 @@ div.linea{
     clear: none;
     
 }
+div.texto textarea{
+
+    margin-top: 10px;
+    text-align: center;
+
+}
 
 
 fieldset{
@@ -37,4 +73,36 @@ fieldset{
     background-color: rgb(238, 237, 236);
 
 
+}
+.separado { 
+
+    margin: 20px 0px 10px 10px; 
+    display: block; /* Asegura que el enlace se comporte como un bloque */
+}
+a:link{
+    
+    
+    list-style: none;
+    /* Enlace sin el subrayado*/
+    text-decoration: none;
+    color: blue;
+
+   
+}
+a:visited{
+
+    list-style: none;
+    /* Enlace sin el subrayado*/
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+
+
+}
+
+a:hover{
+
+ 
+    
+    color: white;
+   
 }
