@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario</title>
+    <meta name="description" content="Esto es una descripción" />
+    <meta name="formulario" content="etiqeutas" />
+    <meta name="Adrian" content="Formulario" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="../estilos/contacto.css" type="text/css">
+</head>
+<body>
+    <div class="comun">
+        <h1>Viajes por el Mundo</h1>
+    
+        <nav>
+            <ul>
+                
+                <li><a href="index.html" target=_blank>Contacto</a></li>
+                <li><a href="paris.html" target="_blank">París</a></li>
+                <li><a href="index.html" target=_blank>Inicio</a></li>
+    
+            </ul>
+        </nav>
+    
+    </div>
+    <form id="formulario1" name="formularioComplejo" method="a http://testform.montysoft.org" >
+
+    <!--Para poner el recuadro-->
+<fieldset>
+    <h1>Formulario</h1>
+
+    <div class="requeridos">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Introduzca su email" size="40" required/>
+    
+    </div>
+
+    <div class="requeridos">
+
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" name="contraseña" placeholder="Introduzca su Contraseña" size="20" required/>
+      
+    </div>
+
+    <div class="requeridos">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre"  placeholder="Introduzca su nombre" size="50" />
+      
+    </div>
+
+    <div class="requeridos">
+
+        <label for="color">Color preferido</label>
+        <input type="color" id="color" name="color" />
+      
+    </div>
+    <div class="requeridos">
+
+        <label for="web">Web</label>
+        <input type="url" id="web" name="web"  size="50" />
+      
+    </div>
+    <div class="requeridos">
+
+        <label for="telefono">Teléfono</label>
+        <input type="number" id="telefono" name="telefono" maxlength="9"  size="40" />
+      
+    </div>
+    <div class="requeridos">
+
+        <label for="fecha">Fecha de nacimiento</label>
+        <input type="date" id="fecha" name="fecha"/>
+      
+    </div>
+
+    <div class="requeridos">
+
+        <label for="transporte">Transporte</label>
+        <!--checked para tener una opcion por defecto-->
+        <input type="radio" id="transporte" name="transporte" checked>Coche </input>
+        <input type="radio" id="transporte" name="transporte">Barco</input>
+        <input type="radio" id="transporte" name="transporte">Tren</input>
+        <input type="radio" id="transporte" name="transporte">Avión</input>
+    </div>
+
+    <div class="bloque">
+        
+        <div class="linea">
+
+            <label for="guia">Opción de guía</label>
+            <!--checked para tener una opcion por defecto-->
+            <input type="radio" id="guia" name="guia" checked>Si </input>
+            <input type="radio" id="guia" name="guia">No</input>
+            
+        </div>  
+    
+        <div class="linea"> 
+            <div class="encabezado">Forma de pago</div>
+            <select name="tarjeta" id="tarjeta">
+                <option value="visa">Visa</option>
+                <option value="bizum">Al contado</option>
+                <option value="paypal">Mastercard</option>
+  
+            </select>
+
+        </div>
+    </div>  
+       
+        
+    
+     
+              
+    
+
+
+
+
+
+
+    
+
+    
+
+<div class="enviar">
+
+    <input type="submit" value="Darme de alta"/>
+    <input type="reset" value="Borrar"/>
+</div>          
+<div class="barato">
+    <p>Página con vuelos baratos: <a href="https://www.skyscanner.es/" target=_blank>skyscanner</a></p>
+    <p>Página con hoteles baratos: <a href="https://www.booking.com/index.es.html" target=_blank>booking</a></p>
+</div>
+</form>
+</body>
+</html>

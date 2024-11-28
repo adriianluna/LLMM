@@ -1,0 +1,200 @@
+body{
+
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 80%;
+}
+
+
+
+h1{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(136, 132, 132);
+    text-align: center;
+    border-bottom: solid white 2px;
+    padding: 10px;
+
+}
+div.comun{
+
+    background-color: rgb(136, 132, 132);
+
+}
+
+nav ul li{
+
+    display: inline;
+    text-align: right;
+    font-size: 12px;
+    
+}
+ul{
+    display: inline;
+    
+    
+}
+div.comun a:link{
+
+    
+    list-style: none;
+    margin: 0px 10px 0px 10px;
+    /**display: inline;*/
+    color: white;
+    /*para quitar la linea del enlace*/
+    text-decoration: none;
+    padding: 17px;
+  
+
+}
+div.comun a:visited{
+
+    list-style: none;
+    color: black;
+    padding: 17px;
+   
+
+
+}
+div.comun a:hover{
+
+    padding: 17px;
+
+}
+p{
+
+    text-align: justify;
+
+}
+h2{
+
+    border: solid black;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+    margin: auto;
+    margin-top: 12px;
+
+
+}
+.costumbre{
+
+    float: right;
+    padding: 4px; /*Relleno para situar varios espacios entre la imagen y el texto*/
+    margin: 0 7px 2px 0; /* Margen para las fotos*/
+    display: inline;
+    padding: 12px;
+}
+ol{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(253, 253, 253);
+    background-color: rgb(119, 119, 117);
+    border-left: dotted;
+    border-right: dotted;
+    text-align: left;
+    /*ancho de la caja*/
+    width: 50%;
+    padding: 20px 20px 20px 30px;
+}
+.gastronomia{
+
+    float: left;
+    padding: 4px; /*Relleno para situar varios espacios entre la imagen y el texto*/
+    margin: 0 7px 2px 0; /* Margen para las fotos*/
+    display: inline;
+    padding: 12px;
+
+}
+table.itinerario{
+
+    margin: auto;
+    text-align: center;
+    
+   
+
+}
+table{
+
+  border: dotted 2px;  
+
+
+}
+table.itinerario caption{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: green;
+    margin: auto;
+    background-color: rgb(96, 218, 96);
+
+
+}
+/**todo*/
+table.itinerario td,th{
+
+    padding: 10px;
+
+}
+/* Le he quitado el nombre de la clase encabezado para que pille las horas*/
+table.itinerario th{
+
+    background-color: rgb(96, 218, 96);
+    color: rgb(0, 0, 0);
+  
+
+}
+
+table.itinerario tr.blanco td{
+
+    
+    background-color: rgb(255, 255, 255);
+
+}
+table.itinerario tr.gris th{
+
+    
+    background-color: rgb(122, 122, 126);
+
+}
+table.itinerario tr.gris td{
+
+    background-color: rgb(122, 122, 126);
+    
+
+}
+table.itinerario tr.blanco th{
+
+    background-color: rgb(255, 255, 255);
+    
+
+}
+div.barato a:link{
+
+    margin: 0px 10px 0px 10px;
+    color: rgb(0, 0, 0);  
+    padding: 8px;
+}
+div.barato a:visited{
+
+    color: black;
+    padding: 8px;
+   
+
+
+}
+div.barato a:hover{
+
+    text-decoration: none;
+    color: azure;
+    padding: 8px;
+
+}

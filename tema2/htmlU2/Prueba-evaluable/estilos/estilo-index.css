@@ -1,0 +1,107 @@
+body{
+
+    background-color: rgb(255, 255, 255);
+   margin: auto;
+   width: 80%;
+}
+
+
+h1{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(136, 132, 132);
+    text-align: center;
+    border-bottom: solid white 2px;
+    padding: 10px;
+
+}
+div.comun{
+
+    background-color: rgb(136, 132, 132);
+
+}
+.azul{
+
+    color: rgb(56, 17, 231);
+
+}
+nav ul li{
+
+    display: inline;
+    float: right;
+    font-size: 12px;
+    
+}
+ul{
+    display: inline;
+    
+    
+}
+div.comun a:link{
+
+    
+    list-style: none;
+    margin: 0px 10px 0px 10px;
+    /**display: inline;*/
+    color: white;
+    /*para quitar la linea del enlace*/
+    text-decoration: none;
+    padding: 17px;
+  
+
+}
+div.comun a:visited{
+
+    list-style: none;
+    color: black;
+    padding: 17px;
+   
+
+
+}
+div.comun a:hover{
+
+    padding: 17px;
+
+}
+p{
+
+    text-align: justify;
+
+}
+.foto2{
+
+    width: 300px;
+    height: 150px;
+    margin-left: 8px;
+    
+
+}
+div.alinear {
+
+
+   text-align: center;
+
+}
+
+div.barato a:link{
+
+    margin: 0px 10px 0px 10px;
+    color: rgb(0, 0, 0);  
+    padding: 8px;
+}
+div.barato a:visited{
+
+    color: black;
+    padding: 8px;
+   
+
+
+}
+div.barato a:hover{
+
+    text-decoration: none;
+    color: azure;
+    padding: 8px;
+
+}

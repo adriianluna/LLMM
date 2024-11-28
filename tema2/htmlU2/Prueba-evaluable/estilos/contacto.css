@@ -1,0 +1,165 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 245, 245);
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+h1{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(136, 132, 132);
+    text-align: center;
+    border-bottom: solid white 2px;
+    padding: 10px;
+
+}
+div.comun{
+
+    background-color: rgb(136, 132, 132);
+
+}
+
+nav ul li{
+
+    display: inline;
+    float: right;
+    font-size: 12px;
+    
+}
+ul{
+    display: inline;
+    
+    
+}
+div.comun a:link{
+
+    
+    list-style: none;
+    margin: 0px 10px 0px 10px;
+    /**display: inline;*/
+    color: white;
+    /*para quitar la linea del enlace*/
+    text-decoration: none;
+    padding: 17px;
+  
+
+}
+div.comun a:visited{
+
+    list-style: none;
+    color: black;
+    padding: 17px;
+   
+
+
+}
+div.comun a:hover{
+
+    padding: 17px;
+
+}
+p{
+
+    text-align: justify;
+
+}
+form{
+
+    background-color: grey;
+
+}
+div.requeridos label{
+/*Alinerar los label ( nombre...)*/
+    margin-right: 30px;
+    width: 20%;
+    float: left;
+    font-weight: bold;
+
+}
+input{
+/*Para poner mas espacio por todo los lados*/
+    padding: 5px;
+
+}
+div{
+/*se paracion de cada div*/
+    margin-bottom: 10px;
+
+}
+
+
+div.linea{
+
+    display: inline;
+    /** Cambiar dependiedno de los div*/
+    width: 42%;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    border: dotted 3px;
+    margin-right: 30px;
+    padding: 5px;
+    
+   
+
+}
+div.linea label{
+
+    font-weight: bold;
+
+}
+div.encabezado {
+
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px ;
+   
+    font-weight: bold;
+    display: block;
+    clear: both;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.bloque{
+
+    display: inline;
+    clear: both;
+    margin: 15px;
+    width: 100%;
+    
+}
+div.enviar{
+
+    text-align: center;
+
+}
+div.barato a:link{
+
+    margin: 0px 10px 0px 10px;
+    color: rgb(0, 0, 0);  
+    padding: 8px;
+}
+div.barato a:visited{
+
+    color: black;
+    padding: 8px;
+   
+
+
+}
+div.barato a:hover{
+
+    text-decoration: none;
+    color: azure;
+    padding: 8px;
+
+}
