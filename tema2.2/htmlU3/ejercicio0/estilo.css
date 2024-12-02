@@ -14,7 +14,8 @@ body{
     color: white;
     border: solid red;
     padding: 5px;
-    
+    gap: 8px;
+
 }
 
 .caja1{
@@ -24,16 +25,18 @@ body{
     /*Empieza en la columna uno y termina en la última*/
     grid-column-start: 1;
     grid-column-end: 3;
+    border: solid black;
 }
 .caja2{
 
     background-color: green;
-
+    border: solid black;
 }
 .caja3{
 
     background-color: darkblue;
     grid-column-start: 1;
+    border: solid black;
 }
 .caja4{
 
@@ -44,23 +47,24 @@ body{
     no llegaría hay que poner uno más*/
     grid-row-start: 2;
     grid-row-end: 4;
-
+    border: solid black;
 
 }
 .caja5{
 
     background-color: skyblue;
-
+    border: solid black;
 }
 .caja6{
 
     background-color: rgb(42, 250, 42);
-
+    border: solid black;
 }
 .caja7{
 
     background-color: black;
     grid-column-start: 1;
     grid-column-end: 3;
+    border: solid black;
 
 }
