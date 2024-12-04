@@ -1,18 +1,20 @@
 body {
     margin: auto;
     background: rgba(241, 239, 239, 0.645);
+    
 }
 
 #container {
     display: grid;
     gap: 5px;
-    text-align: center;
+    text-align: left;
     grid-template-columns: 1fr 1fr ;
     /*segunda opción grid-template: repeat(5 1fr) / 1fr 1fr*/
-   
+    width: 85%;
+    margin: auto;
     padding: 5px;
     gap: 8px;
-;
+
 }
 
 header {
@@ -22,7 +24,26 @@ header {
     background-color: #0D47A1;
     padding: 5px;
 }
+div.izq{
 
+    grid-column-start: 1 ;
+     /*empieza en la 3 y temina en la 5*/
+     grid-row-start: 3;
+     grid-row-end: 5;
+     background-color: #BBDEFB;
+    
+    padding: 5px;
+
+}
+div.derecha{
+
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    padding: 8px;
+    background-color: #BBDEFB;
+   
+}
 footer {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -30,20 +51,14 @@ footer {
     padding: 5px;
 }
 
-article {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    background-color: #BBDEFB;
-    padding: 5px;
-}
+
 
 nav {
     grid-column-start: 1;
     grid-column-end: 3;
     background-color: #FFFFFF;
     padding: 20px;
-    text-align: left;
-    margin-left: 12px;
+   
 }
 
 nav h2 {
