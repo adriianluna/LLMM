@@ -1,0 +1,76 @@
+body{
+
+    color: rgb(0, 0, 0);
+    width: 600px;
+    margin: auto;
+
+}
+.contenedor{
+
+    display: grid;
+    gap: 5px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    border: solid red;
+    padding: 5px;
+    gap: 8px;
+    grid-template-areas:
+"header header header header"
+"main main . sidebar"
+"footer footer footer footer";
+
+
+}
+
+.caja1{
+
+    background-color: red;
+    text-align: center;
+    grid-area: header;
+    border: solid black;
+}
+.caja2{
+
+    background-color: green;
+    border: solid black;
+    
+}
+.caja3{
+
+    background-color: darkblue;
+    grid-column-start: 1;
+    border: solid black;
+}
+.caja4{
+
+    background-color: rgb(218, 218, 87);
+    /*Ponemos en que columna quiere que empiece*/
+    grid-column-start: 2;
+    /*Le ponemos los espacios se pone 4 porque con tres
+    no llegaría hay que poner uno más*/
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border: solid black;
+
+}
+.caja5{
+
+    background-color: skyblue;
+    border: solid black;
+    grid-area: sidebar;
+}
+.caja6{
+
+    background-color: rgb(42, 250, 42);
+    border: solid black;
+}
+.caja7{
+
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: solid black;
+    grid-area: footer;
+
+}
