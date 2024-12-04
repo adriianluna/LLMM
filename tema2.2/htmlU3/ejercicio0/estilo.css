@@ -11,6 +11,7 @@ body{
     gap: 5px;
     text-align: center;
     grid-template-columns: 1fr 1fr;
+    /*segunda opción grid-template: repeat(5 1fr) / 1fr 1fr*/
     color: white;
     border: solid red;
     padding: 5px;
