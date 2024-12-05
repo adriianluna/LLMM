@@ -6,14 +6,13 @@ body {
 
 #container {
     display: grid;
-    gap: 5px;
     text-align: left;
     grid-template-columns: 1fr 1fr ;
     /*segunda opción grid-template: repeat(5 1fr) / 1fr 1fr*/
     width: 85%;
     margin: auto;
     padding: 5px;
-    gap: 8px;
+    gap: 5px;
 
 }
 
@@ -24,7 +23,21 @@ header {
     background-color: #0D47A1;
     padding: 5px;
 }
-div.izq{
+
+
+li{
+
+    list-style: none;
+    display: inline;
+
+}
+nav {
+    grid-column: 1 / 3;
+    background-color: #FFFFFF;
+    padding: 10px;
+   
+}
+#a1{
 
     grid-column-start: 1 ;
      /*empieza en la 3 y temina en la 5*/
@@ -35,14 +48,20 @@ div.izq{
     padding: 5px;
 
 }
-div.derecha{
+#a2{
 
     grid-column-start: 2;
-    grid-row-start: 3;
-    grid-row-end: 5;
     padding: 8px;
     background-color: #BBDEFB;
    
+}
+#a3{
+
+    grid-column-start: 2;
+    background-color: #BBDEFB;
+    padding: 8px;
+   
+
 }
 footer {
     grid-column-start: 1;
@@ -53,13 +72,7 @@ footer {
 
 
 
-nav {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    background-color: #FFFFFF;
-    padding: 20px;
-   
-}
+
 
 nav h2 {
     color: red;
