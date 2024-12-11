@@ -1,0 +1,136 @@
+body{
+
+    color: rgb(0, 0, 0);
+    width: 900px;
+    margin: auto;
+
+}
+.contenedor{
+
+    display: grid;
+    gap: 5px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /*
+    Para poner amplio en las celdas
+    grid-template-columns: repeat(5, 200px);*/
+    color: white;
+    border: solid red;
+    padding: 5px;
+    gap: 8px;
+
+}
+
+header{
+
+    background-color: red;
+    text-align: center;
+    /*Empieza en la columna uno y termina en la última*/
+    grid-column-start: 1;
+    grid-column-end: 7;
+    border: solid black;
+}
+.caja2{
+
+    background-color: green;
+    border: solid black;
+    grid-column-start: 1;
+}
+.caja3{
+
+    background-color: darkblue;
+    grid-column-start: 1;
+    border: solid black;
+}
+.caja4{
+
+    background-color: rgb(218, 218, 87);
+    /*Ponemos en que columna quiere que empiece*/
+    grid-column-start: 2;
+    /*Le ponemos los espacios se pone 4 porque con tres
+    no llegaría hay que poner uno más*/
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border: solid black;
+
+}
+.caja5{
+
+    background-color: skyblue;
+    border: solid black;
+    grid-column-start: 1;
+}
+.caja6{
+
+    background-color: rgb(42, 250, 42);
+    border: solid black;
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.prueba1{
+
+    background-color: rgb(218, 218, 87);
+    /*Ponemos en que columna quiere que empiece*/
+    grid-column-start: 3;
+    /*Le ponemos los espacios se pone 4 porque con tres
+    no llegaría hay que poner uno más*/
+    grid-row-start: 2;
+    grid-row-end: 5;
+    border: solid black;
+}
+.prueba3{
+
+    grid-column-start: 4 ;
+    background-color: black;
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+}
+.prueba4{
+
+    grid-column-start: 6 ;
+    background-color: black;
+    grid-row-start: 2;
+
+}
+
+div.foto img{
+
+    
+    
+    height: 150px;
+    width: 150px;
+}
+.foto{
+
+    grid-column-start: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+aside{
+
+
+    background-color: black;
+    grid-column-start: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+}
+aside img{
+
+    
+    height: 150px;
+    width: 150px;
+
+}
+footer{
+
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    border: solid black;
+
+}

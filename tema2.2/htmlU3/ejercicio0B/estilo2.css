@@ -10,7 +10,7 @@ body{
     display: grid;
     gap: 5px;
     text-align: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 1fr;
     color: white;
     border: solid red;
     padding: 5px;
@@ -26,7 +26,7 @@ body{
 
 }
 
-.caja1{
+header{
 
     background-color: red;
     text-align: center;
@@ -62,6 +62,7 @@ body{
     background-color: skyblue;
     border: solid black;
     grid-area: sidebar;
+    
 }
 .caja6{
 
