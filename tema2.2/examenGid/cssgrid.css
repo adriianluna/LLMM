@@ -1,0 +1,131 @@
+body{
+
+    margin: auto;
+    width: 90%;
+}
+.contenedor{
+
+    display: grid;
+    
+    text-align: center;
+    grid-template-columns: repeat(5,1fr);
+    /*segunda opción grid-template: repeat(5 1fr) / 1fr 1fr*/
+    color: white;
+   
+
+}
+.iconos {
+
+    height: 50px;
+    padding: 8px;
+
+
+}
+
+.caja1{
+
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    /*Empieza en la columna uno y termina en la última*/
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 20px;
+   
+}
+
+.caja2{
+
+    grid-column-start: 4;
+    background-color: blue;
+    text-align: center;
+}
+.caja3{
+
+   
+    grid-column-start: 5;
+    
+    background-image: url(./assets/imagenes/fondo1.jpg) ;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    
+}
+
+.caja4{
+
+    grid-column-start: 1;
+    background-image: url(./assets/imagenes/fondo2.jpg) ;
+    background-repeat: no-repeat; 
+background-position: center; 
+background-size: cover; 
+
+    
+}
+
+.caja5{
+
+    background-color: blue;
+ 
+   
+    
+}
+.caja6{
+
+    background-color: rgb(42, 250, 42);
+   
+   
+}
+.caja7{
+
+    background-color: black;
+    grid-column-start: 4;
+    background-image: url(./assets/imagenes/fondo3.jpg) ;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+
+    
+}
+
+.caja8{
+
+    background-color: orange;
+    grid-column-start: 5;
+
+}
+.caja9{
+
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(./assets/imagenes/fondo4.jpg) ;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+}
+
+.caja10{
+
+    background-color: blue;
+    grid-column-start: 3;
+
+}
+.caja11{
+
+    grid-column-start: 4;
+    grid-column-end: 6;
+    background-image: url(./assets/imagenes/fondo5.jpg) ;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+
+}
+
+.blue{
+
+    color: aqua;
+
+}
+
