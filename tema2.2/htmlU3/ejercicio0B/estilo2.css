@@ -44,6 +44,7 @@ header{
     background-color: darkblue;
     grid-column-start: 1;
     border: solid black;
+    
 }
 .caja4{
 
@@ -52,10 +53,11 @@ header{
     grid-column-start: 2;
     /*Le ponemos los espacios se pone 4 porque con tres
     no llegaría hay que poner uno más*/
-    grid-row-start: 2;
+    grid-row-start: 3;
     grid-row-end: 4;
+    grid-area: auto;
     border: solid black;
-
+    
 }
 .caja5{
 
