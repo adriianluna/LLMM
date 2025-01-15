@@ -1,0 +1,24 @@
+{"numero de estudiantes":{
+
+    "primaria":2,
+    "secundaria": 90,
+        "FP":{
+            "FPB":33,
+            "CFGM":12,
+            "CFGS":33
+        },
+    "bachillerato": 12
+},
+"nombre colegio": "IES Belen",
+"ciudad":{
+    "nombre": "malaga",
+    "provincia": "malaga",
+    "cod postal":29004,
+    
+}
+
+
+
+
+
+}
