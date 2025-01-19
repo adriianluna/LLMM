@@ -1,0 +1,37 @@
+
+{"viajero": {
+      "nombre y apellidos": "Jose García",
+      " Datos de contacto": {
+        "correo electronico": "juangarcia@gmail.com",
+        "telefono": "23242324"
+      },
+      "ciudad origen": "Madrid",
+      "acompañantes": {
+        "nombre acompañante 1": "Antonia",
+        "nombre acompañante 2": "Pepe"
+      }
+       
+    },
+    "gasto_total_viaje": 1500.0,
+    "destinos": [
+      {
+        "satisfecho": true,
+        "ciudad": "Paris",
+        "hotel":{
+            "nombre": "Hotel Paris",
+            "estrellas": 2
+        }
+      },
+      {
+        "satisfecho": false,
+        "nombre": "Cadiz",
+        "hotel":{
+            "nombre": "Hotel algeciras",
+            "estrellas": 3
+
+        }
+      }
+    ]
+}    
+    
+  

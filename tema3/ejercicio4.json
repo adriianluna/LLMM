@@ -1,0 +1,31 @@
+{"expediente": {
+    "nombre de la titulación": "Ingeniería Informática",
+        "nombre del estudiante":{
+            "nombre": "Jose",
+            "apellidos": "García"
+        },
+    "email": "josegarcia@gmail.com",
+    "repite curso": true,
+    "nombre de sus amigos":{
+        " mejor amigo": "Romeo",
+        "amigo2": "Pepe"
+    },
+    "asignaturas":[
+        {
+            "nombre": "Matemáticas",
+            "nota": 5
+        },
+        {
+            "nombre": "Física",
+            "nota": 6
+        },
+        {
+            "nombre": "Programación",
+            "nota": 7
+        }
+        
+    ]
+
+
+}
+}
