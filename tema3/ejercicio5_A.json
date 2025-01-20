@@ -1,0 +1,13 @@
+{"personas" :[
+    {
+        "nombre": "Pepe",
+        "apellidos": "López",
+        "edad": 22,
+        "mayor edad": true,
+        "red social":["Facebook","Intagram"],
+        "tarjetas":["Visa","Mastercard"]
+    }
+]
+
+
+}
