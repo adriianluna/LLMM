@@ -1,0 +1,23 @@
+{"empleados":[
+    {
+        "nombre": "Pepe",
+        "apellidos": "García",
+        "edad": 30,
+        "departamento": "informática",
+        "habilidades":["java","python"]
+    },
+        
+    {"nombre": "Pepe",
+        "apellidos": "García",
+        "edad": 30,
+        "departamento": "informática",
+        "habilidades":["java","python"] 
+    }
+
+
+
+
+]
+}
+
+
