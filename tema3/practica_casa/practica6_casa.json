@@ -1,0 +1,78 @@
+{"restaurantes":[
+    
+        {
+            "nombre":"La casa de la pizza",
+            "platos":[
+                
+                    {
+                        "nombre":"pizza",
+                        "ingredientes":["harina","tomate","queso"],
+                        "disponibilidad":true
+                    },
+                    {
+
+                    "nombre":"pasta",
+                        "ingredientes":["harina","tomate","queso"],
+                        "disponibilidad":true
+                    },
+                    {
+                        "nombre":"ensalada",
+                        "ingredientes":["lechuga","tomate"],
+                        "disponibilidad":true
+                    },
+                    {
+                      "nombre":"haburguesa",
+                        "ingredientes":["carne","lechuga","tomate","pan"]  
+                    }
+                    
+                    
+                
+                   
+                
+            
+            ]
+        
+        
+        },
+            {
+                "nombre":"pizzeria Paco",
+                "platos":[
+                
+                    {
+                        "nombre":"espaguettis",
+                        "ingredientes":["harina","tomate","queso"],
+                        "disponibilidad":true
+                    },
+                    {
+
+                    "nombre":"pasta",
+                        "ingredientes":["harina","tomate","queso"],
+                        "disponibilidad":true
+                    },
+                    {
+                        "nombre":"ensalada",
+                        "ingredientes":["lechuga","tomate"],
+                        "disponibilidad":true
+                    },
+                    {
+                      "nombre":"haburguesa",
+                        "ingredientes":["carne","lechuga","tomate","pan"]  
+                    }
+                    
+                    
+                
+                   
+                
+            
+                ]
+            }
+          
+
+    
+
+
+
+]
+
+
+}

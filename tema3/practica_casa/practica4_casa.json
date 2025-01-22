@@ -1,0 +1,29 @@
+{"tiendas":[
+    {
+        "productos":[
+            {
+                "telefonos":{
+                    "marca":"Samsung",
+                    "modelo":"Galaxy S21",
+                    "precio":800,
+                    "stock":10
+                },
+                
+                "ordenadores":{
+                    "marca":"HP",
+                    "modelo":"Pavilion",
+                    "precio":600,
+                    "stock":5
+                },
+                "tablets":{
+                    "marca":"HP",
+                    "modelo":"Pavilion",
+                    "precio":600,
+                    "stock":5
+                }
+            }
+        ]
+    }
+]
+
+}

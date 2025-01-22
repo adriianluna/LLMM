@@ -1,0 +1,33 @@
+{"universiad":
+    {
+        "facultades":[
+            {
+                "nombre":"Facultad de Ciencias",
+                "asignaturas":["mates"]
+            },
+            {
+                "nombre":"Facultad de letras",
+                "asignaturas":["nada"]
+            }
+
+
+
+
+        ]
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,42 @@
+{"universidad":[
+    {
+        "nombre":"Universidad de malaga",
+        "ubicacion":"malaga",
+        "año_fundacion":1970,
+        "facultades":[
+            {
+                 "nombre":"Facultad de ciencias",
+                 "decano":"Juan",
+                 "carreras_disponibles":["matematicas","fisica","quimica"]
+
+            }
+        ],
+        "materias":[
+            {
+                "nombre":"matematicas",
+                "codigo_material":"mat1",
+                "profesor":
+                    {
+                    
+                        "nombre":"Pedro",
+                        "edad":45,
+                        "email":"jean@gmail.com",
+                        "telefono":123456789
+                    }
+            }
+        ],
+        "estudiantes":[
+            {
+                "nombre":"Juan",
+                "edad":20,
+                "matricula":123456789,
+                "carrera_incrita":"matematicas",
+                "materias_inscritas":["mat1","mat2"]
+            }
+        ]
+           
+        
+    }
+
+
+]}
