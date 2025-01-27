@@ -1,4 +1,4 @@
-{"catalago_biblioteca":[
+{"catalago_biblioteca":
     {
         "nombre":"Biblioteca central",
         "libros":[
@@ -30,7 +30,4 @@
             }
         ]
     }
-]
-
-
 }
