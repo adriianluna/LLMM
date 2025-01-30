@@ -4,10 +4,11 @@ let expActual = 100;
 let expGanada = 30;
 let expNecesaria = 100;
 expActual += expGanada;
+// hacemos un if para decir que hemos subido de nivel
 if(expActual >= expNecesaria){
     nivel++;
     expActual  -= expNecesaria;
-    console.log("Has subido de nivel");
+    console.log("Has subido de nivel eres nivel: " + nivel);
     
 }
 
@@ -32,6 +33,7 @@ let sumaMonedas  = 0;
 for(let elemento of monedas){
     sumaMonedas += elemento;
 }
+atuendos.push("Mago");
 atuendos.forEach((dato, indice) => { console.log(indice + ":" + dato); });
 
 
@@ -43,8 +45,10 @@ console.log("La suma de monedas es: " + sumaMonedas);
 let puntosActuales = 22;
 let cura = 30;
 
-console.log( "Tienes " + puntosActuales + " puntos actuales y  con la cura tienes una vida de " + Math.min(puntosActuales+cura,100));
-
-
+function curar(puntosActuales, cura) {
+    return Math.min(puntosActuales + cura, 100);
+}
+ 
+console.log( "Tienes " + puntosActuales + " puntos actuales y con la cura tienes una vida de " + Math.min(puntosActuales+cura,100));
 
 
