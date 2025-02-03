@@ -34,7 +34,10 @@ for(let elemento of monedas){
     sumaMonedas += elemento;
 }
 atuendos.push("Mago");
-atuendos.forEach((dato, indice) => { console.log(indice + ":" + dato); });
+atuendos.forEach((dato, indice) => { 
+    console.log(indice + ":" + dato); 
+}
+);
 
 
 
@@ -49,6 +52,8 @@ function curar(puntosActuales, cura) {
     return Math.min(puntosActuales + cura, 100);
 }
  
-console.log( "Tienes " + puntosActuales + " puntos actuales y con la cura tienes una vida de " + Math.min(puntosActuales+cura,100));
+puntosTotales = curar(puntosActuales,cura);
+
+console.log( "Tienes " + puntosActuales + " puntos actuales y con la cura tienes una vida de " + puntosTotales);
 
 
