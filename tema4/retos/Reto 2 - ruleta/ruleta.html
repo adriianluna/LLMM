@@ -35,7 +35,7 @@
                         // Si lo multiplico por tres el dominio pasa a ser [0-3)
                         // Esta operación genera decimales, para eliminarlos se usa Math.floor()
                     for(i in cuadro)
-                        cuadro[i] = Math.floor(Math.random() * 3);
+                        cuadro[i] = Math.floor(Math.random() * 4);
                     
                     // Genera los intervalos para que cada recuadro cambie de imagen cada centésima de segundo.
                     intervaloRuleta[0] = setInterval(function() { cambiaImagen(0);}, 150);
@@ -64,13 +64,14 @@
             // Función que para un recuadro de la ruleta.
             function paraRuleta() {
                 // Solo para si hay alguna corriendo.
-                if (corriendo > 0) {
+                if (corriendo > 1) {
                     // Como las tablas empiezan en cero, el ultimo valor es 2.
                     // Restamos uno a los recuadros corriendo.
-                    corriendo = corriendo - 1;
+                    corriendo = corriendo - 2;
                     // Paramos el intervalo para que deje de cambiar la imagen del recuadro.
                     clearInterval(intervaloRuleta[corriendo]);
-                    
+                    // le sumamos uno 
+                    clearInterval(intervaloRuleta[corriendo + 1]);
                     // Si hemos parado el último activamos el efecto de las sombras.
                     if (corriendo==0) 
                         cambiaSombras();
