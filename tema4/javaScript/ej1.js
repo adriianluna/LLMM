@@ -1,4 +1,4 @@
-let heroe = "Éxarion";
+const heroe = "Éxarion";
 
 console.log("Estado del héroe")
 console.log("Nombre: " + heroe);
