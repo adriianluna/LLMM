@@ -1,0 +1,74 @@
+body{
+
+    color: rgb(0, 0, 0);
+    width: 90%;
+    margin: auto;
+    text-align: center;
+
+}
+img{
+    height: 140px;
+}
+.contenedor{
+
+    display: grid;
+    gap: 5px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    /*
+    Para poner amplio en las celdas
+    grid-template-columns: repeat(5, 200px);*/
+    color: rgb(0, 0, 0);
+    border: solid rgb(0, 0, 0);
+    padding: 5px;
+    gap: 8px;
+
+}
+
+
+.mensaje{
+
+    background-color: rgb(175, 231, 235);
+    border: solid black;
+    grid-column-start: 1;
+    height: 150px;
+}
+.robot{
+
+    background-color: rgb(175, 231, 235);
+    grid-column-start: 2;
+    grid-row-start: 1;
+    border: solid black;
+}
+.invisible{
+
+    background-color: rgb(175, 231, 235);
+    /*Ponemos en que columna quiere que empiece*/
+    grid-column-start: 3;
+    /*Le ponemos los espacios se pone 4 porque con tres
+    no llegaría hay que poner uno más*/
+    grid-row-start: 1;
+    
+    border: solid black;
+
+}
+.dobleClick{
+    height: 150px;
+    background-color: rgb(175, 231, 235);
+    border: solid black;
+    grid-column-start: 1;
+}
+.contar{
+
+    background-color: rgb(175, 231, 235);
+    border: solid black;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.cursor{
+
+    background-color: rgb(175, 231, 235);
+    border: solid black;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
