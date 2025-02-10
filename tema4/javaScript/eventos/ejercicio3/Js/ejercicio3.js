@@ -30,6 +30,7 @@ function calculaMultiplicacion(){
 
 }
 
+
 function numeroMayorMenor(){
  
     let num1 = parseInt(prompt("Introduce un número: "));
