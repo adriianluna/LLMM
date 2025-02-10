@@ -1,0 +1,10 @@
+{"alumnos":
+
+    {
+        "nombres": ["Juan", "Pedro", "Maria", "Ana", "Luis", "Carlos", "Jose", "Manuel", "Antonio", "Javier"],
+        "edad": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    }
+
+
+
+}
