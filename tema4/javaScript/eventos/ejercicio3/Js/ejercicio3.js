@@ -68,9 +68,10 @@ function mensaje() {
 function mensaje2() {
     alert("Bienvenidos");
 }
-
+// La tenemos que poner fuera para que no sea siemrpe 0
+let contador = 0;
 function pulsar() {
-    let contador = 0;
+    
     contador++;
     alert("Se ha pulsado " + contador);
 }
