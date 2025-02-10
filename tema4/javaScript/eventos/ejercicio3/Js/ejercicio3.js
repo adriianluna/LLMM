@@ -25,7 +25,7 @@ function calculaMultiplicacion(){
         alert("Los numeros no son validos");
     }else{
         let multiplicacion = num1 * num2;
-        alert("La multiplicacion de  " + num1  + " y " + + num2 + " es " + multiplicacion);
+        alert("La multiplicacion de " + num1  + " y " + + num2 + " es " + multiplicacion);
     }
 
 }
