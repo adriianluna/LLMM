@@ -42,13 +42,6 @@ function calculaMultiplicacion(){
     }
 
 }
-
-<<<<<<< HEAD
-
-
-=======
-// Calculo del numero mayor o menor
->>>>>>> 0d1dbbb6af6bee611f20cccae810ef0b11773f9f
 function numeroMayorMenor(){
     // pedimos dos numeros si se hace click en la imagen del robot, si no son numeros no se hace nada
     let num1 = parseInt(prompt("Introduce un número: "));
