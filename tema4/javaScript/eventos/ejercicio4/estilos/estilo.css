@@ -1,0 +1,87 @@
+body{
+
+    color: rgb(0, 0, 0);
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(253, 238, 220);
+    
+}
+img{
+    height: 140px;
+}
+.contenedor{
+
+    display: grid;
+    gap: 5px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    /*
+    Para poner amplio en las celdas
+    grid-template-columns: repeat(5, 200px);*/
+    color: rgb(0, 0, 0);
+   
+    padding: 5px;
+    gap: 8px;
+    
+}
+.rojo{
+    background-color: red;
+}
+
+.mensaje{
+
+    background-color: rgb(175, 231, 235);
+    border: solid black;
+    grid-column-start: 1;
+    
+}
+.negro{
+
+    background-color: black;
+    color: white;
+    height: 150px;
+}
+.invisible{
+
+    background-color: rgb(175, 231, 235);
+    /*Ponemos en que columna quiere que empiece*/
+    grid-column-start: 3;
+    /*Le ponemos los espacios se pone 4 porque con tres
+    no llegaría hay que poner uno más*/
+    grid-row-start: 1;
+    border: solid black;
+}
+
+.contar{
+
+    background-color: rgb(175, 231, 235);
+    border: solid black;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.cursor{
+
+    background-color: rgb(175, 231, 235);
+    border: solid black;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.cambiar_fondo{
+    background-color: rgb(175, 231, 235);
+    border: solid black;
+}
+.estilo{
+    background-color: rgb(175, 231, 235);
+    border: solid black;
+}
+.edad{
+    background-color: rgb(175, 231, 235);
+    border: solid black;
+}
+
+
+
+
+
