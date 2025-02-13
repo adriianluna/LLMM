@@ -7,6 +7,7 @@ const foto = document.querySelector(".tortuga");
 const edadEntre = document.querySelector(".edad");
 // cambiar color d e las capas 
 const cambiaColor = document.querySelectorAll(".boton");
+const colorRojo = document.querySelectorAll(".rojo");
 
 
 
@@ -25,6 +26,6 @@ function mensaje() {
 }
 
 // cambia color
-cambiaColor.addEventListener("click", () => {negro.classList.toggle("rojo");});
+cambiaColor.addEventListener("click", () => {colorRojo.classList.toggle("rojo");});
 
 
