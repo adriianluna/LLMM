@@ -14,13 +14,12 @@ const botonEdad = document.querySelector(".boton");
 const error = document.querySelector(".error");
 // Botones para cambiar capa negra, letras blancas
 const capa1 = document.querySelector(".boton1");
-const estiloCapa1 = document.querySelector(".estilo");
+//Estilos de las capas
+const estiloCapa = document.querySelector(".estilo");
 // Botoness para cambiar capa blanca y letra negras
 const capa2 = document.querySelector(".boton2");
-const estiloCapa2 = document.querySelector(".estilo");
 // Botoness para cambiar capa blanca y letra negras
 const capa3 = document.querySelector(".boton3");
-const estiloCapa3 = document.querySelector(".estilo");
 
 
 // cambiamso a rojo cuando entra y a negro cuando sale
@@ -32,9 +31,9 @@ foto.addEventListener("mouseleave",() => {foto.src="./assets/tortuga.png";});
 // edad
 botonEdad.addEventListener("click",intervalo);
 // Botones de cambiar capas
-capa1.addEventListener("click",() => {estiloCapa1.style.color = "white", estiloCapa1.style.backgroundColor = "black";});
-capa2.addEventListener("click",() => {estiloCapa2.style.color = "black", estiloCapa2.style.backgroundColor = "white";});
-capa3.addEventListener("click",() => {estiloCapa3.style.color = "grey", estiloCapa3.style.backgroundColor = "red";});
+capa1.addEventListener("click",() => {estiloCapa.style.color = "white", estiloCapa.style.backgroundColor = "black";});
+capa2.addEventListener("click",() => {estiloCapa.style.color = "black", estiloCapa.style.backgroundColor = "white";});
+capa3.addEventListener("click",() => {estiloCapa.style.color = "grey", estiloCapa.style.backgroundColor = "red";});
  
 
 function intervalo() {
@@ -51,6 +50,6 @@ function intervalo() {
 }
 
 // cambia color
-cambiaColor.addEventListener("click", () => {colorRojo.classList.toggle("rojo");});
+cambiaColor.addEventListener("click", () => {colorRojo.classList.toggle("red");});
 
 
