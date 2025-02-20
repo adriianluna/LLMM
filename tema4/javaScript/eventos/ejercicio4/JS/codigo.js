@@ -39,6 +39,7 @@ function intervalo() {
      let num = parseInt(edadEntre.value); 
      if(isNaN(num)){
          error.textContent = "Introduce un número";
+         input.style.borderColor = "red";
      }else if(num >= 1 && num <= 100){
         input.style.borderColor = "green";
         error.textContent = "El número está entre 1 y 100";
