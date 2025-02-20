@@ -8,26 +8,18 @@ parrafoColor.addEventListener("mouseleave",() => {parrafoColor.style.color = "bl
 
 //Cambia la foto cuando entras a la foto
 // cambio de imagenes
-const foto = document.querySelector(".tortuga");
-const edadEntre = document.querySelector(".input");
-foto.addEventListener("mouseenter",() => {foto.src="./assets/spiderman.png";});
-foto.addEventListener("mouseleave",() => {foto.src="./assets/tortuga.png";});
 
-let contador = 0;
-function fotos(){
-    if("mouseenter"){
-        const nombreImagen=foto.src.split("/").pop();
-        contador = 1;
-    }
-}
 
-const hwheel = document.querySelector(".urus");
-hwheel.addEventListener("mouseenter", () => {
-    const nombreImagen = hwheel.src.split("/").pop();
-    if (nombreImagen === "urus.jpg") {
-        hwheel.src = "./assets/supra.jpg";
+
+const fotos = document.querySelector(".tortuga");
+fotos.addEventListener("mouseenter", () => {
+    //Saca el nomrbe de la imagen
+    const imagen = fotos.src.split("/").pop();
+    // Si la imagen es igual que 
+    if (imagen === "tortuga.png") {
+        fotos.src = "./assets/spiderman.png";
     } else {
-        hwheel.src = "./assets/urus.jpg";
+        fotos.src = "./assets/tortuga.png";
     }
 });
 
@@ -35,19 +27,24 @@ hwheel.addEventListener("mouseenter", () => {
 // edad
 // Enviar edad
 const botonEdad = document.querySelector(".boton");
+const edadEntre = document.querySelector(".input");
 // PArrafo vacio de la edad
 const error = document.querySelector(".error");
 botonEdad.addEventListener("click",intervalo);
 // Intervalo de edad
+//Para el borde
+const input= document.querySelector(".input");
 function intervalo() {
     error.textContent = "";
      let num = parseInt(edadEntre.value); 
      if(isNaN(num)){
          error.textContent = "Introduce un número";
      }else if(num >= 1 && num <= 100){
-     error.textContent = "El número está entre 1 y 100";
+        input.style.borderColor = "green";
+        error.textContent = "El número está entre 1 y 100";
     }else{
      error.textContent = "El número no está entre 1 y 100";
+        input.style.borderColor = "red";
     }
    
  }
@@ -73,7 +70,7 @@ const capas = document.querySelectorAll(".negro");
 //cambiaColor.addEventListener("click", () => fondoColor(capas));
 
 // cambia color
-cambiaColor.addEventListener("click", () => {capas.forEach(a => a.classList.toggle("rojo"));});
+// cambiaColor.addEventListener("click", () => {capas.forEach(a => a.classList.toggle("rojo"));});
 
 // funcion
 cambiaColor.addEventListener("click", () => {
