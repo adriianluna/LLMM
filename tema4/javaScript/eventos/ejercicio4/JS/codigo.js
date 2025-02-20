@@ -27,7 +27,6 @@ fotos.addEventListener("mouseenter", () => {
 // edad
 // Enviar edad
 const botonEdad = document.querySelector(".boton");
-const edadEntre = document.querySelector(".input");
 // PArrafo vacio de la edad
 const error = document.querySelector(".error");
 botonEdad.addEventListener("click",intervalo);

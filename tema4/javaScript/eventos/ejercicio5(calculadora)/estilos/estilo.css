@@ -1,0 +1,34 @@
+body{
+    width: 40%;
+    margin: auto;
+    background-color: cornsilk;
+    color: white;
+    margin-top: 200px;
+    
+   
+}
+.numero1{
+    margin-bottom: 12px;
+}
+.calculadora{
+    border: solid;
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+}
+
+.operaciones{
+   margin-top: 12px;
+   margin-bottom: 12px;
+}
+.resultado{
+    margin-bottom: 12px;
+}
+
+.boton{
+    background-color: rgb(19, 243, 19);
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+}
+
