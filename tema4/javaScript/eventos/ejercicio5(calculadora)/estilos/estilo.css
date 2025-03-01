@@ -1,7 +1,7 @@
 body{
     width: 40%;
     margin: auto;
-    background-color: cornsilk;
+    background-color: rgb(235, 235, 221);
     color: white;
     margin-top: 200px;
     
@@ -11,10 +11,10 @@ body{
     margin-bottom: 12px;
 }
 .calculadora{
-    border: solid;
+    border: solid black 4px;
     padding: 20px;
     margin: 20px;
-    background-color: black;
+    background-color: cadetblue;
 }
 
 .operaciones{
@@ -30,5 +30,11 @@ body{
     height: 40px;
     width: 80px;
     border-radius: 10px;
+    
 }
-
+.error{
+    color: rgb(253, 98, 98);
+    font-size: 20px;
+    margin-top: 10px;
+    
+}

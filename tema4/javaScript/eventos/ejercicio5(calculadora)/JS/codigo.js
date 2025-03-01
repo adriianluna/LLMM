@@ -15,16 +15,28 @@ const resultado = document.querySelector(".inputResultado");
 
 // Boton
 const boton = document.querySelector(".boton");
+boton.addEventListener("click", opciones);
+
+// Opciones de calculo
+function opciones() {
+    const operacion = document.querySelector(".opciones").value;
+    if (operacion === "Suma") {
+        suma();
+    } else if (operacion === "Resta") {
+        resta();
+    } else if (operacion === "Multiplicacion") {
+        multiplicacion();
+    } else if (operacion === "Division") {
+        division();
+    }
+}
+// Para imprimir el error en caso de que no se introduzcan numeros
 const error = document.querySelector(".error");
-boton.addEventListener("click", suma);
-
-
-// FUncion suma
-function suma(){
-    error.textContent = "";
-    if(isNaN(numeroIntroducido1) || (isNaN(numeroIntroducido2))){
-          
-
+// Funcion suma
+function suma() {
+    if (isNaN(numeroIntroducido1.value) || isNaN(numeroIntroducido2.value)) {
+        error.textContent = "Introduce un número";
+        
     }
     let numero1 = parseFloat(numeroIntroducido1.value);
     let numero2 = parseFloat(numeroIntroducido2.value);
@@ -32,23 +44,45 @@ function suma(){
 
     resultado.value = suma;
 }
-
-function intervalo() {
-    error.textContent = "";
-     let num = parseInt(edadEntre.value); 
-     if(isNaN(num)){
-         error.textContent = "Introduce un número";
-         input.style.borderColor = "red";
-     }else if(num >= 1 && num <= 100){
-        input.style.borderColor = "green";
-        error.textContent = "El número está entre 1 y 100";
-    }else{
-     error.textContent = "El número no está entre 1 y 100";
-        input.style.borderColor = "red";
-    }
+function resta(){
    
- }
+    if(isNaN(numeroIntroducido1.value) || (isNaN(numeroIntroducido2.value))){
+        error.textContent = "Introduce un número";
+    }
+    
+    let numero1 = parseFloat(numeroIntroducido1.value);
+    let numero2 = parseFloat(numeroIntroducido2.value);
+    let resta = numero1 - numero2;
 
+    resultado.value = resta;
+}
+function multiplicacion(){
+    
+    if(isNaN(numeroIntroducido1.value) || (isNaN(numeroIntroducido2.value))){
+          
+        error.textContent = "Introduce un número";
+    }
+    let numero1 = parseFloat(numeroIntroducido1.value);
+    let numero2 = parseFloat(numeroIntroducido2.value);
+    let multiplicacion = numero1 * numero2;
+
+    resultado.value = multiplicacion;
+}
+function division(){
+    
+    if(isNaN(numeroIntroducido1.value) || (isNaN(numeroIntroducido2.value))){
+        error.textContent = "Introduce un número";
+
+    }else if(numeroIntroducido2.value == 0){
+        error.textContent = "No se puede dividir entre 0";
+    }
+
+    let numero1 = parseFloat(numeroIntroducido1.value);
+    let numero2 = parseFloat(numeroIntroducido2.value);
+    let division = numero1 / numero2;
+
+    resultado.value = division;
+}
 
 
 
