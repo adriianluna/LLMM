@@ -1,0 +1,39 @@
+body{
+    margin: auto;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.border{
+    border:  dotted;
+    width: 200px;
+    padding: 15px;
+    margin: auto;
+  
+
+}
+
+.h1{
+
+    color: red;
+}
+
+table{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 600px;
+    
+}
+
+th{
+
+    border: 1px solid;
+    padding: 10px;
+}
+td{
+    border: 1px solid;
+    padding: 10px;
+}
+
+
