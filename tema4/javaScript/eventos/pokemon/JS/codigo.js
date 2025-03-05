@@ -18,22 +18,23 @@ try {
     // Peocesamos la respuesta a un objeto data javascript
     const data = await response.json();
 
-    nombrePokemon.innerHTML = '<h3>${data.name}</h3>';
-    imagenPokemon.src = '${data.sprites.fron_default}';
-    alturaPokemon.innerHTML = '<h3>${data.height}</h3>';
+    nombrePokemon.innerHTML = `<h3>${data.name}</h3>`;
+    imagenPokemon.src = `${data.sprites.fron_default}`;
+    alturaPokemon.innerHTML = `<h3>${data.height}</h3>`;
     data.types.forEach(element => {
-        
+        tipoPokemon.innerHTML = tipoPokemon.innerHTML + `<li>${element.type.name}</li>`;
+
     });
 
 
 } catch (error) {
     
+    imagenPokemon.src = "";
+    tipoPokemon.innerHTML = "";
+    alturaPokemon.innerHTML = "";
+    nombrePokemon.innerHTML = <p>No se encontro el pokemon</p>;
+    console.error("Error al obtener datos", error);
 }
-    
-
-
-
-
 
 }
 
