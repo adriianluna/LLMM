@@ -19,7 +19,7 @@ try {
     const data = await response.json();
 
     nombrePokemon.innerHTML = `<h3>${data.name}</h3>`;
-    imagenPokemon.src = `${data.sprites.fron_default}`;
+    imagenPokemon.src = `${data.sprites.front_default}`;
     alturaPokemon.innerHTML = `<h3>${data.height}</h3>`;
     data.types.forEach(element => {
         tipoPokemon.innerHTML = tipoPokemon.innerHTML + `<li>${element.type.name}</li>`;
