@@ -5,14 +5,36 @@ const imagenPokemon = document.querySelector(".imagen");
 const alturaPokemon = document.querySelector(".altura");
 const tipoPokemon = document.querySelector(".tipo");
 
-
-
 // Constante del boton
 const boton = document.querySelector(".boton");
 boton.addEventListener("click", bucarPokemon);
 // Funcion
-function bucarPokemon() {
+async function bucarPokemon() {
+    const pokemon = document.querySelector(".input1").value;
+    const url =`https://pokeapi.co/api/v2/pokemon/${pokemon}`;
+try {
+    // obtenemos la respuesta del url
+    const response = await fetch(url);
+    // Peocesamos la respuesta a un objeto data javascript
+    const data = await response.json();
+
+    nombrePokemon.innerHTML = '<h3>${data.name}</h3>';
+    imagenPokemon.src = '${data.sprites.fron_default}';
+    alturaPokemon.innerHTML = '<h3>${data.height}</h3>';
+    data.types.forEach(element => {
+        
+    });
+
+
+} catch (error) {
     
+}
+    
+
+
+
+
+
 }
 
 
