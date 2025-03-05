@@ -3,7 +3,7 @@
 const nombrePokemon = document.querySelector(".nombre");
 const imagenPokemon = document.querySelector(".imagen");
 const alturaPokemon = document.querySelector(".altura");
-const tipoPokemon = document.querySelector(".tipo");
+const tipoPokemon = document.querySelector(".tipos");
 
 // Constante del boton
 const boton = document.querySelector(".boton");
@@ -32,7 +32,7 @@ try {
     imagenPokemon.src = "";
     tipoPokemon.innerHTML = "";
     alturaPokemon.innerHTML = "";
-    nombrePokemon.innerHTML = <p>No se encontro el pokemon</p>;
+    nombrePokemon.innerHTML = `<p>No se encontro el pokemon</p>`;
     console.error("Error al obtener datos", error);
 }
 
