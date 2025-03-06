@@ -18,9 +18,16 @@ try {
     // Peocesamos la respuesta a un objeto data javascript
     const data = await response.json();
 
+ 
     nombrePokemon.innerHTML = `<h3>${data.name}</h3>`;
+
+   
     imagenPokemon.src = `${data.sprites.front_default}`;
+
+   
     alturaPokemon.innerHTML = `<h3>${data.height}</h3>`;
+    // limpiamos antes para que no se repita los tipos
+    tipoPokemon.innerHTML = "";
     data.types.forEach(element => {
         tipoPokemon.innerHTML = tipoPokemon.innerHTML + `<li>${element.type.name}</li>`;
 
@@ -36,6 +43,11 @@ try {
     console.error("Error al obtener datos", error);
 }
 
+
+   
+   
+    
+   
 }
 
 
