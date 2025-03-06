@@ -14,8 +14,13 @@ async function buscarPelicula() {
 try {
     // obtenemos la respuesta del url
     const response = await fetch(url);
-    // Peocesamos la respuesta a un objeto data javascript
+    // Procesamos la respuesta a un objeto data javascript
     const data = await response.json();
+
+    // Verificamos si la película no fue encontrada
+    if (data.Response === "False") {
+        throw new Error("");
+    }
 
  
     tituloPelicula.innerHTML = `<h3>${data.Title}</h3>`;
@@ -29,10 +34,9 @@ try {
 } catch (error) {
     
     
-    duracionPelicula.innerHTML = "";
-    anyoPelicula.innerHTML = "";
+    
     tituloPelicula.innerHTML = `<p>No se encontro la pelicula</p>`;
-    console.error("Error al obtener datos", error);
+    
 }
 
    
