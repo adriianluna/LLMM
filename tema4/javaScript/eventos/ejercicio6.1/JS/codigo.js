@@ -10,8 +10,7 @@ boton.addEventListener("click", buscarPelicula);
 // Funcion
 async function buscarPelicula() {
     const pelicula = document.querySelector(".input1").value;
-    const url =`https://www.omdbapi.com/?t=titulo&apikey=6bd47da3${pelicula}`;
-    
+    const url = `http://www.omdbapi.com/?t=${pelicula}&apikey=6bd47da3`;
 try {
     // obtenemos la respuesta del url
     const response = await fetch(url);
@@ -19,51 +18,25 @@ try {
     const data = await response.json();
 
  
-    tituloPelicula.innerHTML = `<h3>${data.titulo}</h3>`;
-    anyoPelicula.innerHTML = `<h3>${data.anyo}</h3>`;
+    tituloPelicula.innerHTML = `<h3>${data.Title}</h3>`;
+    anyoPelicula.innerHTML = `<h3>${data.Year}</h3>`;
     // limpiamos antes para que no se repita los tipos
  
-    duracionPelicula.innerHTML = `<h3>${data.titulo}</h3>`
+    duracionPelicula.innerHTML = `<h3>${data.Runtime}</h3>`;
     
 
 
 } catch (error) {
     
-    imagenPokemon.src = "";
+    
     duracionPelicula.innerHTML = "";
     anyoPelicula.innerHTML = "";
-    tituloPelicula.innerHTML = `<p>No se encontro el pokemon</p>`;
+    tituloPelicula.innerHTML = `<p>No se encontro la pelicula</p>`;
     console.error("Error al obtener datos", error);
 }
 
-
-   
    
     
    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
