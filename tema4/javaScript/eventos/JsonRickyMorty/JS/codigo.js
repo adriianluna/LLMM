@@ -19,12 +19,6 @@ try {
     // Procesamos la respuesta a un objeto data javascript
     const data = await response.json();
 
-    
-
-    // Verificamos si la película no fue encontrada
-    //if (data.Response === "False") {
-      //  throw new Error("");
-    //}
 
  
     nombre.innerHTML = `<h3>${data.name}</h3>`;
@@ -35,7 +29,7 @@ try {
     if (data.gender == "Female") {
         document.body.style.backgroundColor = "pink";
     }else{
-        document.body.style.backgroundColor = "black";
+        document.body.style.backgroundColor = "white";
     }
     // Imagen del Json
     imagenPersonaje.src = `${data.image}`;
