@@ -27,9 +27,9 @@ try {
  
     genero.innerHTML = `<h3>${data.gender}</h3>`;
     if (data.gender == "Female") {
-        document.body.style.backgroundColor = "pink";
+        document.body.style.color = "pink";
     }else{
-        document.body.style.backgroundColor = "white";
+        document.body.style.color = "white";
     }
     // Imagen del Json
     imagenPersonaje.src = `${data.image}`;
