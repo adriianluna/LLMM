@@ -1,0 +1,57 @@
+
+// constantes
+const nombre = document.querySelector(".nombre");
+const especie = document.querySelector(".especie");
+const genero = document.querySelector(".genero");
+const imagenPersonaje = document.querySelector(".imagen");
+const contadorEpisodios = document.querySelector(".contador");
+
+// Constante del boton
+const boton = document.querySelector(".boton");
+boton.addEventListener("click", buscarPelicula);
+// Funcion
+async function buscarPelicula() {
+    const buscar = document.querySelector(".ricky").value.tolowerCase();
+    const url = `https://rickandmortyapi.com/api/character/${buscar}`;
+try {
+    // obtenemos la respuesta del url
+    const response = await fetch(url);
+    // Procesamos la respuesta a un objeto data javascript
+    const data = await response.json();
+
+    
+
+    // Verificamos si la película no fue encontrada
+    if (data.Response === "False") {
+        throw new Error("");
+    }
+
+ 
+    nombre.innerHTML = `<h3>${data.name}</h3>`;
+    especie.innerHTML = `<h3>${data.species}</h3>`;
+    // limpiamos antes para que no se repita los tipos
+ 
+    genero.innerHTML = `<h3>${data.gender}</h3>`;
+    // Imagen del Json
+    imagenPokemon.src = `${data.sprites.front_default}`;
+
+    
+    data.episode.forEach(element => {
+       contadorEpisodios.innerHTML = contadorEpisodios.innerHTML + `<li>${element.episode.name}</li>`;
+
+    });
+
+
+} catch (error) {
+    
+    
+    
+    nombre.innerHTML = `<p>No se encontro el personaje</p>`;
+    
+}
+
+   
+    
+   
+}
+
