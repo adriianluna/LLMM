@@ -32,7 +32,7 @@ try {
     // limpiamos antes para que no se repita los tipos
  
     genero.innerHTML = `<h3>${data.gender}</h3>`;
-    if (data.gender === "Male") {
+    if (data.gender == "Female") {
         document.body.style.backgroundColor = "pink";
     }else{
         document.body.style.backgroundColor = "black";
