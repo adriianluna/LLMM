@@ -90,7 +90,7 @@ try {
     opinion.forEach(element => {
         //MOstramos las valoraciones en el option
        
-       resultado.innerHTML = `<h3>${data.Value[element.value].value}</h3>`;
+       resultado.innerHTML = `<h3>${data.Value[valoraciones.selectedIndex].value}</h3>`;
     });
     
        
