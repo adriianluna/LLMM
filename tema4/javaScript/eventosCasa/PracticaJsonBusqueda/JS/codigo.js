@@ -3,11 +3,12 @@
 const tituloPelicula = document.querySelector(".titulo");
 const anyoPelicula = document.querySelector(".anyo");
 const duracionPelicula = document.querySelector(".duracion");
+//valoraciones
+const valoraciones = document.querySelector(".valoracion");
 
 // Constante del boton
 const boton = document.querySelector(".boton");
 boton.addEventListener("click", buscarPelicula);
-
 
 // Funcion
 
@@ -32,13 +33,17 @@ try {
     // limpiamos antes para que no se repita los tipos
  
     duracionPelicula.innerHTML = `<h3>${data.Runtime}</h3>`;
-    /**
-     * primero.innerHTML = "";
-    data.Ratings.forEach(element => {
-        primero.innerHTML = primero.innerHTML + `<p>${element.Source}</p>`;
+    
+     // Limpiamos el contenido anterior
+     
+     valoraciones.innerHTML = "";
 
-    });
-     */
+     // Añadimos las nuevas valoraciones
+     data.Ratings.forEach(element => {
+         //MOstramos las valoraciones en el option
+        valoraciones.innerHTML += `<option>${element.Source}</option>`;
+        
+     });
     
     
 
@@ -59,49 +64,47 @@ try {
 const botonValoraciones = document.querySelector(".botonValoraciones");
 botonValoraciones.addEventListener("click", opiniones);
 
-//sacar texto
-const primero = document.querySelectorAll(".primero");
 //opciones
+const opinion = document.querySelectorAll(".opinion");
+
+//resultado
+const resultado = document.querySelector(".resultadoValoraciones");
 
 // opcioens en el desplegable
-const valoraciones = document.querySelector(".valoracion");
-async function opiniones(){
 
-    try {
-        const pelicula = document.querySelector(".input1").value;
-        const url = `http://www.omdbapi.com/?t=${pelicula}&apikey=6bd47da3`;
-        // obtenemos la respuesta del url
-        const response = await fetch(url);
-        // Procesamos la respuesta a un objeto data javascript
-        const data = await response.json();
+async function opiniones() {
+    const buscar = document.querySelector(".valoracion").value;
+    const url = `http://www.omdbapi.com/?t=${buscar}&apikey=6bd47da3`;
+try {
+    // obtenemos la respuesta del url
+    const response = await fetch(url);
+    // Procesamos la respuesta a un objeto data javascript
+    const data = await response.json();
+
+    //resultado.innerHTML = `<h3>${data.Value}</h3>`;
+    resultado.innerHTML = "";
+    
+    //resultado.innerHTML = `<h3>${data.Value}</h3>`;
+
+    //const selectedOption = valoraciones.selectedIndex; 
+    opinion.forEach(element => {
+        //MOstramos las valoraciones en el option
+       
+       resultado.innerHTML = `<h3>${data.Value[element.value].value}</h3>`;
+    });
     
        
-       
-       // Limpiamos el contenido anterior
-       primero.forEach(element => element.innerHTML = "");
-       valoraciones.innerHTML = "";
 
-       // Añadimos las nuevas valoraciones
-       data.Ratings.forEach(element => {
-           primero.forEach(item => {
-               item.innerHTML *= `<p>${element.Source}</p>`;
-           });
-
-           const opcion = document.createElement("option");
-        
-           opcion.value = element.Source;
-           opcion.textContent = element.Source;
-
-           valoraciones.appendChild(opcion);
-       });
     
-        
-    } catch (error) {
-        
-        primero.innerHTML = `<p>Error al obtener valoraciones</p>`;
-        
-        
-    }
+
+     
+
+   
+
+} catch (error) {
+    
+    resultado.innerHTML += `<p>No se encontro el personaje</p>`;
+    
 }
  
-
+}
