@@ -52,3 +52,38 @@ function cambiaFoto() {
     }
 }
 
+// Cambiar fondo de la pagina web
+const cambiarFondo = document.querySelector(".cambiarFondo");
+
+cambiarFondo.addEventListener("click", cambiarFondoPagina);
+
+function cambiarFondoPagina() {
+    if (document.body.style.backgroundColor == "bisque") {
+        document.body.style.backgroundColor = "grey"; // Fondo original
+    } else {
+        document.body.style.backgroundColor = "bisque";
+    }
+}
+
+// ENtra al recuadro y te pide un numero
+const dentro = document.querySelector(".dentro");
+
+dentro.addEventListener("mouseenter", pideNumero);
+
+function pideNumero() {
+    const numero = prompt("Introduce un número");
+    const numero2 = prompt("Introduce un número");
+
+    if (!isNaN(numero) && !isNaN(numero2)) {
+        suma = parseFloat(numero) + parseFloat(numero2);
+        alert(`La suma de los números es: ${suma}`);
+    } else {
+        alert("Por favor, introduce números válidos.");
+    }
+
+}
+
+
+
+
+

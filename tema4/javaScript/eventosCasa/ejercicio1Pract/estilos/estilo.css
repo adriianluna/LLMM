@@ -10,22 +10,22 @@ h1{
     border: solid red thin;
 	padding: 10px;
 	display: grid;
-	grid-template: repeat(3, 1fr) / 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	text-align: center;
 	gap: 15px;
 	color: white;
 }
 .cajaRoja{
 	grid-column-start: 1;
-	grid-column-end: 3;
+	grid-column-end: 1;
 	border: solid black;
 	background-color: red;
     gap: 5px;
     margin-bottom: 20px;
 }
 .cajaAmarilla{
-    grid-column-start: 1;
-	grid-column-end: 3;
+    grid-column-start: 2;
+	
 	border: solid black;
 	background-color: yellow;
     margin-bottom: 20px;
@@ -47,5 +47,33 @@ img{
     
 }
 
+
+.container2{
+
+    display: grid;
+    
+    text-align: center;
+    
+    grid-template: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+}
+
+.dentro{
+    grid-column-start: 1;
+	
+	border: solid black;
+	
+    
+}
+.capa2{
+    grid-column-start: 2;
+	border: solid black;
+    
+}
+.capa3{
+    grid-column-start: 3;
+	border: solid black;
+    
+}
 
 
