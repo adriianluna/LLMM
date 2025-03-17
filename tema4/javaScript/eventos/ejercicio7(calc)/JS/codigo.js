@@ -70,13 +70,13 @@ function eliminar(){
 /// Tomamos las funciones
 function cacula(op){
 
-    if(funciones.value === "x"){
+    if(funciones.value == "x"){
 
         document.querySelector("input").value = segundoOperando;
         multiplicacion = primerOperando * segundoOperando;
     }
 
-    
+
 
 }
 
