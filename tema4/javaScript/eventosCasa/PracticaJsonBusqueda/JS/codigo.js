@@ -13,6 +13,7 @@ boton.addEventListener("click", buscarPelicula);
 // Funcion
 
 
+
 async function buscarPelicula() {
     const pelicula = document.querySelector(".input1").value;
     const url = `http://www.omdbapi.com/?t=${pelicula}&apikey=6bd47da3`;
@@ -36,13 +37,13 @@ try {
     
      // Limpiamos el contenido anterior
      
-     valoraciones.innerHTML = '';
+     valoraciones.innerHTML = "<option value=''>Selecciona una valoración</option>";
 
      // Añadimos las nuevas valoraciones
      data.Ratings.forEach(element => {
          //MOstramos las valoraciones en el option
         valoraciones.innerHTML += `<option>${element.Source}</option>`;
-        
+       
      });
     
     
@@ -61,12 +62,56 @@ try {
 }
 
 // BOton para buscar las opiniones
+
 const botonValoraciones = document.querySelector(".botonValoraciones");
 const resultado = document.querySelector(".resultadoValoraciones");
+
+const opinion = document.querySelector(".opinion");
+
 botonValoraciones.addEventListener("click", mostrarValoracion);
 
-function mostrarValoracion() {
-    const valorSeleccionado = valoraciones.value;
+async function mostrarValoracion() {
+    const pelicula = document.querySelector(".input1").value;
+    const url = `http://www.omdbapi.com/?t=${pelicula}&apikey=6bd47da3`;
+    try {
+        // obtenemos la respuesta del url
+        const response = await fetch(url);
+        // Procesamos la respuesta a un objeto data javascript
+        const data = await response.json();
+    
+        // Verificamos si la película no fue encontrada
+        if (data.Response === "False") {
+            throw new Error("");
+        }
+    
+    
+         // Añadimos las nuevas valoraciones
+         data.Ratings.forEach(element => {
+             //MOstramos las valoraciones en el option
+
+            if(element.Source === valoraciones.value){
+                 resultado.innerHTML = `<p>La valoracion es: ${element.Value}</p>`;
+            }
+               
+            
+
+            
+            
+         });
+        
+        
+    
+    } catch (error) {
+        
+        
+        
+        resultado.innerHTML = `<p>No se encontro la pelicula</p>`;
+        
+    }
+}
+
+/**
+ *  const valorSeleccionado = valoraciones.value;
 
     if (!valorSeleccionado) {
         resultado.innerHTML = `<p>Selecciona una valoración</p>`;
@@ -74,5 +119,4 @@ function mostrarValoracion() {
     }
 
     resultado.innerHTML = `<h3>Valoración: ${valorSeleccionado}</h3>`;
-}
-
+ */
