@@ -1,0 +1,61 @@
+.container{
+    display: grid;
+    gap: 5px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+   
+    color: white;
+    border: solid rgb(0, 0, 0);
+    padding: 5px;
+    gap: 8px;
+}
+.cajaRoja{
+	grid-column-start: 1;
+	grid-column-end: 3;
+    
+	border: solid black;
+	background-color: red;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.cajaAmarilla{
+    /*Posicion drch izq*/
+    grid-column-start: 3;
+    /*Posicion arriba abajo*/
+	grid-row-start: 1;
+   
+	border: solid black;
+	background-color: yellow;
+    margin-bottom: 10px;
+}
+.cajaAzul{
+    grid-column-start: 1;
+	grid-row-start: 2;
+    grid-row-end: 5;
+	border: solid black;
+	background-color: rgb(0, 17, 255);
+    margin-bottom: 10px;
+}
+.cajaVerde{
+    grid-column-start: 2;
+	grid-column-end: 4;
+    
+	border: solid black;
+	background-color: rgb(0, 255, 42);
+    margin-bottom: 10px;
+}
+.cajaRosa{
+    grid-column-start: 2;
+	grid-column-end: 4;
+	
+	border: solid black;
+	background-color: rgb(255, 0, 221);
+    margin-bottom: 10px;
+}
+.cajaMorado{
+    grid-column-start: 2;
+	grid-column-end: 4;
+	border: solid black;
+	background-color: rgb(183, 0, 255);
+    margin-bottom: 10px;
+}

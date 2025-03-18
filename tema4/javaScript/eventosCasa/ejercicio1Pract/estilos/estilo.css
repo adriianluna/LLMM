@@ -77,3 +77,30 @@ img{
 }
 
 
+.container3{
+
+    display: grid;
+    
+    text-align: center;
+    
+    grid-template: 1fr 1fr 1fr ;
+    margin-bottom: 30px;
+}
+
+.clase1{
+    grid-column-start: 1;
+	
+	border: solid black;
+	
+    
+}
+.clase2{
+    grid-column-start: 2;
+	border: solid black;
+    
+}
+.clase3{
+    grid-column-start: 3;
+	border: solid black;
+    
+}
