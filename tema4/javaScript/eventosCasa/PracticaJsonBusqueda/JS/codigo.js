@@ -36,7 +36,7 @@ try {
     
      // Limpiamos el contenido anterior
      
-     valoraciones.innerHTML = "";
+     valoraciones.innerHTML = '';
 
      // Añadimos las nuevas valoraciones
      data.Ratings.forEach(element => {
@@ -62,49 +62,17 @@ try {
 
 // BOton para buscar las opiniones
 const botonValoraciones = document.querySelector(".botonValoraciones");
-botonValoraciones.addEventListener("click", opiniones);
-
-//opciones
-const opinion = document.querySelectorAll(".opinion");
-
-//resultado
 const resultado = document.querySelector(".resultadoValoraciones");
+botonValoraciones.addEventListener("click", mostrarValoracion);
 
-// opcioens en el desplegable
+function mostrarValoracion() {
+    const valorSeleccionado = valoraciones.value;
 
-async function opiniones() {
-    const buscar = document.querySelector(".valoracion").value;
-    const url = `http://www.omdbapi.com/?t=${buscar}&apikey=6bd47da3`;
-try {
-    // obtenemos la respuesta del url
-    const response = await fetch(url);
-    // Procesamos la respuesta a un objeto data javascript
-    const data = await response.json();
+    if (!valorSeleccionado) {
+        resultado.innerHTML = `<p>Selecciona una valoración</p>`;
+        return;
+    }
 
-    //resultado.innerHTML = `<h3>${data.Value}</h3>`;
-    resultado.innerHTML = "";
-    
-    //resultado.innerHTML = `<h3>${data.Value}</h3>`;
-
-    //const selectedOption = valoraciones.selectedIndex; 
-    opinion.forEach(element => {
-        //MOstramos las valoraciones en el option
-       
-       resultado.innerHTML = `<h3>${data.Value[valoraciones.selectedIndex].value}</h3>`;
-    });
-    
-       
-
-    
-
-     
-
-   
-
-} catch (error) {
-    
-    resultado.innerHTML += `<p>No se encontro el personaje</p>`;
-    
+    resultado.innerHTML = `<h3>Valoración: ${valorSeleccionado}</h3>`;
 }
- 
-}
+
