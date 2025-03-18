@@ -4,9 +4,10 @@ const tituloPelicula = document.querySelector(".titulo");
 const anyoPelicula = document.querySelector(".anyo");
 const duracionPelicula = document.querySelector(".duracion");
 //valoraciones
+//Select
 const valoraciones = document.querySelector(".valoracion");
 
-// Constante del boton
+// Constante del boton buscar
 const boton = document.querySelector(".boton");
 boton.addEventListener("click", buscarPelicula);
 
@@ -35,7 +36,7 @@ try {
  
     duracionPelicula.innerHTML = `<h3>${data.Runtime}</h3>`;
     
-     // Limpiamos el contenido anterior
+     
      
      valoraciones.innerHTML = "<option value=''>Selecciona una valoración</option>";
 
@@ -49,11 +50,9 @@ try {
     
 
 } catch (error) {
-    
-    
-    
-    tituloPelicula.innerHTML = `<p>No se encontro la pelicula</p>`;
-    
+    // Parrafo abajo del todo
+    resultado.innerHTML = `<p>No se encontro la pelicula</p>`;
+    //tituloPelicula.innerHTML = `<p>No se encontro la pelicula</p>`;
 }
 
    
@@ -61,12 +60,12 @@ try {
    
 }
 
-// BOton para buscar las opiniones
-
+// Boton para buscar las opiniones
+//Segundo boton
 const botonValoraciones = document.querySelector(".botonValoraciones");
+//Parrafo abajo del todo
 const resultado = document.querySelector(".resultadoValoraciones");
 
-const opinion = document.querySelector(".opinion");
 
 botonValoraciones.addEventListener("click", mostrarValoracion);
 
@@ -104,19 +103,7 @@ async function mostrarValoracion() {
     } catch (error) {
         
         
-        
-        resultado.innerHTML = `<p>No se encontro la pelicula</p>`;
+        resultado.innerHTML = `<p>No se encontro la opinion</p>`;
         
     }
 }
-
-/**
- *  const valorSeleccionado = valoraciones.value;
-
-    if (!valorSeleccionado) {
-        resultado.innerHTML = `<p>Selecciona una valoración</p>`;
-        return;
-    }
-
-    resultado.innerHTML = `<h3>Valoración: ${valorSeleccionado}</h3>`;
- */
