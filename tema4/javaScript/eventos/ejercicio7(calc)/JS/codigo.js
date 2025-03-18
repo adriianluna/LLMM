@@ -2,105 +2,88 @@
 
 
 
+//input
+const display = document.querySelector("input"); 
 
 
 
-
-// Constantes  ppara los numeros 
-const botones = document.querySelectorAll(".boton");
-
-const display = document.querySelector("input");
-
+// Variables para almacenar los operandos
 let primerOperando = "";
 let operacion = "";
 let segundoOperando = "";
 
 
-
-botones.forEach(boton => {
-    boton.addEventListener("click", () => {
-
-
+// Botones de números
+const botones = document.querySelectorAll(".boton"); 
+botones.forEach((element) => {
+    element.addEventListener("click", () => {
         if (operacion !== "") {
-            segundoOperando += boton.value; 
-            document.querySelector("input").value = segundoOperando;
+            segundoOperando += element.textContent;
+            display.value = segundoOperando;
         } else {
-            primerOperando += boton.value;
-            document.querySelector("input").value = primerOperando;
+            primerOperando += element.textContent;
+            display.value = primerOperando;
         }
-        // document.querySelector("input").value = primerOperando + operacion + segundoOperando;
     });
 });
 
-let op = "";
-
-// COntantes para la suma y eso
-const funciones = document.querySelectorAll(".funciones");
-
-funciones.forEach(operacion => {
-
-    operacion.addEventListener("click", ()=> {
-        if(primerOperando !== ""){
-            cacula(op);
-            primerOperando = "";
-        }
-        op = operacion.value;
-    });
-
-});
- 
-
-// Boton para borrar el interior del input
-const borrar = document.querySelector(".borrar");
-
-let multiplicacion ="";
-
-borrar.addEventListener("click", eliminar);
-
-function eliminar(){
-
-    
-    document.querySelector("input").value = "";
-    primerOperando = "";
-    operacion = "";
-    segundoOperando = "";
-
-}
-
-/// Tomamos las funciones
-function cacula(op){
-
-    if(funciones.value == "x"){
-
-        document.querySelector("input").value = segundoOperando;
-        multiplicacion = primerOperando * segundoOperando;
+// Función operación matemática
+function opcionesCalcular(num1, num2, operacion) {
+    switch (operacion) {
+        case "+":
+            return num1 + num2;
+        case "-":
+            return num1 - num2;
+        case "x":
+            return num1 * num2;
+        case "/":
+            return num1 / num2;
+        default:
+            return num1;
     }
-
-
-
 }
-
-// Boton para ver el resultado
-const resultado = document.querySelector(".resultado");
-
-function mostrar(){
-
-    document.querySelector("input").value = multiplicacion;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Botones de calculo
+const funciones = document.querySelectorAll(".funciones"); 
+// Funcion para los botones de operaciones
+funciones.forEach((boton) => {
+    boton.addEventListener("click", () => {
+        if (primerOperando !== "" && segundoOperando === "") {
+            // Guardar la operación 
+            operacion = boton.textContent; 
+            // Esperamos a que introduzca el segundo operando
+            esperandoSegundoOperando = true; 
+            // Mostramos operación
+            display.value = primerOperando + " " + operacion; 
+        }
+    });
+});
+// Boton para mostrar el resultado
+const botonResultado = document.querySelector(".resultado");
+// Resultado
+botonResultado.addEventListener("click", () => {
+    if (primerOperando !== "" && segundoOperando !== "" && operacion !== "") {
+        let resultado = opcionesCalcular(
+            parseFloat(primerOperando),
+            parseFloat(segundoOperando),
+            operacion
+        );
+        // Mostrar resultado
+        display.value = resultado;
+        // Guardar el resultado para futuras operaciones
+        primerOperando = resultado.toString(); 
+        segundoOperando = "";
+        operacion = "";
+        esperandoSegundoOperando = false;
+    }
+});
+//Borrar el input y poner 0
+const borrar = document.querySelector(".borrar"); 
+// Borrar
+borrar.addEventListener("click", () => {
+    primerOperando = "";
+    segundoOperando = "";
+    operacion = "";
+    esperandoSegundoOperando = false;
+    //Poner 0 en el input
+    display.value = "0"; 
+});
