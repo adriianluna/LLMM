@@ -49,7 +49,7 @@ async function mostrarDefinicion() {
            //valoraciones.innerHTML += `<option>${element.lenght}</option>`;
            valoraciones.innerHTML += `<option>Definicion: ${item.raw}</option>`;
            valoraciones.addEventListener("click",() => {
-            definicion.innerHTML = `<h>Definicion: ${item.raw}</option>`;
+            definicion.innerHTML += `<p> ${item.raw}</p>`;
            });
         
         });

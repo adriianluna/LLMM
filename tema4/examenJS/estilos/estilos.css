@@ -17,9 +17,11 @@ margin-bottom: 10px;
 }
 .buscador{
 
-    width: 26%;
+    width: 20%;
     border: dotted;
     padding: 20px;
     margin: auto;
+    display: block;
 
 }
+
