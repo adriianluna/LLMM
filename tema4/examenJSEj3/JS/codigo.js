@@ -9,6 +9,9 @@ const fallo = document.querySelector(".error")
 // boton para buscar
 const boton = document.querySelector(".boton");
 
+//constatne del select
+const valoraciones = document.querySelector(".valoracion");
+
 boton.addEventListener("click", mostrarDefinicion);
 
 async function mostrarDefinicion() {
@@ -33,11 +36,15 @@ async function mostrarDefinicion() {
          data.data.meanings.forEach(element =>  {
             latin.innerHTML = `<h3>${textoBuscar} (${element.origin.raw})</h3>`;
             
-         })
+         });
+
+         valoraciones.innerHTML = "<option value=''>Selecciona una valoración</option>";
+
          data.data.meanings.forEach(element => {
             
             element.senses.forEach(item => {
-            definicion.innerHTML += `<li>${item.raw}</li>`;
+            
+           valoraciones.innerHTML += `<option>${item.raw}</option>`;
             });
 
            
@@ -52,3 +59,5 @@ async function mostrarDefinicion() {
         
     }
 }
+
+
