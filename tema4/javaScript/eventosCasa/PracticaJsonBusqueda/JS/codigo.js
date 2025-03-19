@@ -107,3 +107,8 @@ async function mostrarValoracion() {
         
     }
 }
+
+
+
+//const nuevaOpcion = document.createElement("option");
+//select.appendChild(nuevaOpcion);
