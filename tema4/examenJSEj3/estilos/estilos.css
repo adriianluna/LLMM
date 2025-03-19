@@ -23,12 +23,19 @@ margin-bottom: 10px;
     margin: auto;
 
 }
-.valoracion{
+.desplegable{
 
     border: dotted;
     padding: 20px;
     margin: auto;
     display: block;
-    width: 45%;
+    width: 40%;
+    margin-top: 20px;
+
+}
+.definicion{
+
+    display: inline;
+
 
 }

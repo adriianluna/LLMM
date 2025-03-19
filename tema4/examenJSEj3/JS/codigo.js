@@ -39,17 +39,25 @@ async function mostrarDefinicion() {
          });
 
          valoraciones.innerHTML = "<option value=''>Selecciona una valoración</option>";
+           
 
-         data.data.meanings.forEach(element => {
+         //valoraciones.innerHTML += `<option>Definicion: ${data.meanings.senses.length}</option>`;
+           data.data.meanings.forEach(element => {
             
             element.senses.forEach(item => {
             
-           valoraciones.innerHTML += `<option>${item.raw}</option>`;
-            });
-
-           
+           //valoraciones.innerHTML += `<option>${element.lenght}</option>`;
+           valoraciones.innerHTML += `<option>Definicion: ${item.raw}</option>`;
+           valoraciones.addEventListener("click",() => {
+            definicion.innerHTML = `<h>Definicion: ${item.raw}</option>`;
+           });
+        
+        });
+        
+            
             
          });
+          
         
     
     } catch (error) {
