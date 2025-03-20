@@ -6,6 +6,7 @@
  <!ELEMENT mensaje (#PCDATA)>
  <!ELEMENT direccion (#PCDATA)>
  <!--<!ATTLIST mensaje tipo ID #REQUIRED>-->
+ <!--<!ATTLIST mensaje tipo (facebook|whatsup|x) "facebook">-->
 ]>
 <aviso>
     <de>David</de>
