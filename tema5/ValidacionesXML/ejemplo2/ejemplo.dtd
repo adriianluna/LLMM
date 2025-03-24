@@ -1,0 +1,11 @@
+ <!-- La ? hace que no sea obligatoria-->
+ <!ELEMENT aviso (de,(para|cc)+,mensajes,direccion?)>
+ <!ELEMENT de (#PCDATA)>
+ <!ELEMENT para (#PCDATA)>
+ <!ELEMENT cc (#PCDATA)>
+ <!-- EL * 0 o mas y + al menos 1-->
+ <!ELEMENT mensajes (mensaje*)>
+ <!ELEMENT mensaje (#PCDATA)>
+ <!ELEMENT direccion (#PCDATA)>
+  
+  <!ATTLIST mensaje tipo (facebook|whatsup|x) "facebook">
