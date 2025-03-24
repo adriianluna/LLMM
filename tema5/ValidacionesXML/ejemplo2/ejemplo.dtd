@@ -7,5 +7,4 @@
  <!ELEMENT mensajes (mensaje*)>
  <!ELEMENT mensaje (#PCDATA)>
  <!ELEMENT direccion (#PCDATA)>
-  
   <!ATTLIST mensaje tipo (facebook|whatsup|x) "facebook">
