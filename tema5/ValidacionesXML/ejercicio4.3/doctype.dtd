@@ -1,13 +1,50 @@
 
-<!ELEMENT restaurante (menu,recetas,registro)>
- <!ELEMENT menu (platos+)>
- <!ELEMENT platos (#PCDATA)>
- <!ELEMENT nombre (#PCDATA)>
- <!ELEMENT recetas (#PCDATA)>
- <!ELEMENT clientes (#PCDATA)>
-
- <!ELEMENT mensajes (mensaje*)>
- <!ELEMENT mensaje (#PCDATA)>
- <!ELEMENT direccion (#PCDATA)>
+<!ELEMENT restaurante (menu,recetas,clientes)>
  
-  <!ATTLIST mensaje tipo (facebook|whatsup|x) "facebook">
+ <!-- Platos-->
+ <!ELEMENT menu (platos+)>
+ <!ELEMENT platos (plato*)>
+ <!ELEMENT plato (nombrePlato,categoria,ingredientes,precio)>
+ <!ELEMENT nombrePlato (#PCDATA)>
+ <!ELEMENT categoria (#PCDATA)>
+ <!ELEMENT ingredientes (ingrediente+)>
+ <!ELEMENT ingrediente (#PCDATA)>
+ <!ELEMENT precio (#PCDATA)>
+
+ <!-- Para precio-->
+<!ATTLIST precio moneda (USD|EUR|GBP) #REQUIRED>
+
+<!-- Recetas-->
+ <!ELEMENT recetas (receta+)>
+ <!ELEMENT receta (nombreReceta,ingredientesReceta,preparacion)>
+ <!ELEMENT nombreReceta (#PCDATA)>
+<!ELEMENT ingredientesReceta (ingrediente2+)>
+ <!ELEMENT ingrediente2 (#PCDATA)>
+ <!ELEMENT preparacion (pasos+)>
+ <!ELEMENT pasos (#PCDATA)> 
+
+  <!-- Para receta-->
+  <!ATTLIST nombreReceta comersal (niños|adultos) #REQUIRED>
+    <!-- Para receta ingrediente-->
+    <!-- Lo que sea sin ser obligatorio-->
+ <!ATTLIST ingrediente2 nombre CDATA #IMPLIED>
+
+  <!-- Para receta ingrediente-->
+ <!ATTLIST ingrediente2 cantidad CDATA #REQUIRED> 
+
+<!-- Clientes-->
+ <!ELEMENT clientes (cliente+)>
+ <!ELEMENT cliente (nombreCliente,telefono,email, pedidos)>
+ <!ELEMENT nombreCliente (#PCDATA)>
+ <!ELEMENT telefono (#PCDATA)>
+ <!ELEMENT email (#PCDATA)>
+ <!ELEMENT pedidos (pedido*)>
+ <!ELEMENT pedido (#PCDATA)>
+  
+  <!-- Para pedido-->
+  <!ATTLIST pedido fecha CDATA #IMPLIED>
+   <!-- Para precio-->
+  <!ATTLIST pedido patosPedidos CDATA #IMPLIED>
+ 
+
+ 

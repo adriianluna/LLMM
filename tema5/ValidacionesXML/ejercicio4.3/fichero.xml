@@ -4,7 +4,7 @@
     <menu>
         <platos>
             <plato>
-                <nombre></nombre>
+                <nombrePlato></nombrePlato>
                 <categoria></categoria>
                 <ingredientes>
                     <ingrediente></ingrediente>
@@ -18,16 +18,16 @@
     </menu>
     <recetas>
         <receta>
-            <nombre comersal="niños"></nombre>
-            <ingredientes>
-                <ingrediente nombre = "" cantidad="200"></ingrediente>
+            <nombreReceta comersal="niños"></nombreReceta>
+            <ingredientesReceta>
+                <ingrediente2 nombre = "" cantidad="200"></ingrediente2>
 
-            </ingredientes>
+            </ingredientesReceta>
             <preparacion>
                 <pasos></pasos>
                 <pasos></pasos>
                 <pasos></pasos>
-        </preparacion>
+            </preparacion>
         </receta>
         
     
@@ -35,11 +35,11 @@
     </recetas>
     <clientes>
         <cliente>
-            <nomrbe></nomrbe>
+            <nombreCliente></nombreCliente>
             <telefono></telefono>
             <email></email>
             <pedidos>
-                <pedido fecha="" pedidos=""></pedido>
+                <pedido fecha="" patosPedidos=""></pedido>
         
             </pedidos>
         </cliente>
