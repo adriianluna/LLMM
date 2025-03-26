@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restaurante SYSTEM "doctype.dtd">
+<restaurante>
+    <menu>
+        <platos>
+            <plato>
+                <nombre></nombre>
+                <categoria></categoria>
+                <ingredientes>
+                    <ingrediente></ingrediente>
+
+                </ingredientes>
+                <precio moneda="USD"></precio>
+            </plato>
+            
+
+        </platos>
+    </menu>
+    <recetas>
+        <receta>
+            <nombre comersal="niños"></nombre>
+            <ingredientes>
+                <ingrediente nombre = "" cantidad="200"></ingrediente>
+
+            </ingredientes>
+            <preparacion>
+                <pasos></pasos>
+                <pasos></pasos>
+                <pasos></pasos>
+        </preparacion>
+        </receta>
+        
+    
+    
+    </recetas>
+    <clientes>
+        <cliente>
+            <nomrbe></nomrbe>
+            <telefono></telefono>
+            <email></email>
+            <pedidos>
+                <pedido fecha="" pedidos=""></pedido>
+        
+            </pedidos>
+        </cliente>
+       
+
+
+    </clientes>
+</restaurante>

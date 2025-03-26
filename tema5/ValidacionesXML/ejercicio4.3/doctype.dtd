@@ -1,0 +1,13 @@
+
+<!ELEMENT restaurante (menu,recetas,registro)>
+ <!ELEMENT menu (platos+)>
+ <!ELEMENT platos (#PCDATA)>
+ <!ELEMENT nombre (#PCDATA)>
+ <!ELEMENT recetas (#PCDATA)>
+ <!ELEMENT clientes (#PCDATA)>
+
+ <!ELEMENT mensajes (mensaje*)>
+ <!ELEMENT mensaje (#PCDATA)>
+ <!ELEMENT direccion (#PCDATA)>
+ 
+  <!ATTLIST mensaje tipo (facebook|whatsup|x) "facebook">
