@@ -8,8 +8,6 @@
                 <xs:element name= "mensaje" type="xs:string"></xs:element>
         </xs:sequence>
     
-    
-    
     </xs:complexType>
    
    </xs:element>
