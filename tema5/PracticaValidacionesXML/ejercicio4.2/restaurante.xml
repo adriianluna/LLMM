@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restaurante SYSTEM "doctype.dtd">
+<restaurante>
+    <menu>
+        <plato>
+            <nombre></nombre>
+            <categoria></categoria>
+            <lista_ingredientes></lista_ingredientes>
+            <precio moneda="USD"></precio>
+        </plato>
+        <plato>
+            <nombre></nombre>
+            <categoria></categoria>
+            <lista_ingredientes></lista_ingredientes>
+            <precio moneda="USD"></precio>
+        </plato>
+
+    </menu>
+    <recetas>
+        <receta>
+            <nombre2></nombre2>
+            <comersales tipo="adultos"></comersales>
+            <lista_ingredientes></lista_ingredientes>
+            <pasos>
+                <paso> </paso>
+
+            </pasos>
+            <ingredientes>
+                <nombre3 cantidad="200"> </nombre3>
+
+            </ingredientes>
+
+        </receta>
+
+
+    </recetas>
+
+    <clientes>
+        <cliente>
+            <nombre4></nombre4>
+            <telefono></telefono>
+            <email></email>
+            <pedidos>
+                <fecha></fecha>
+                <platos_pedidos></platos_pedidos>
+            </pedidos>
+
+        </cliente>
+
+
+    </clientes>
+
+
+</restaurante>

@@ -1,0 +1,42 @@
+<!ELEMENT restaurante (menu, recetas,clientes)>
+
+<!-- menu-->
+<!ELEMENT menu (plato+)>
+<!ELEMENT plato (nombre,categoria,lista_ingredientes, precio)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT lista_ingredientes (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+<!-- Atributo precio-->
+<!ATTLIST precio moneda (USD|EUR|GBP) #REQUIRED>
+
+<!-- Recetas-->
+<!ELEMENT recetas (receta)>
+<!ELEMENT receta (nombre2,comersales,lista_ingredientes,pasos,ingredientes)>
+<!ELEMENT nombre2 (#PCDATA)>
+<!ELEMENT comersales (#PCDATA)>
+<!ATTLIST comersales tipo ID #REQUIRED>
+
+<!ELEMENT pasos (paso)>
+<!ELEMENT paso (#PCDATA)>
+
+
+<!ELEMENT ingredientes (nombre3)>
+<!ELEMENT nombre3 (#PCDATA)>
+
+<!-- atributo-->
+<!ATTLIST nombre3 cantidad CDATA #REQUIRED>
+
+
+<!ELEMENT clientes (cliente)>
+<!ELEMENT cliente (nombre4,telefono,email,pedidos)>
+
+<!ELEMENT nombre4 (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT pedidos (fecha,platos_pedidos)>
+
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT platos_pedidos (#PCDATA)>
