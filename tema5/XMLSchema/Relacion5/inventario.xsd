@@ -39,30 +39,14 @@
                             <!-- Para que no falle se pone el mixed-->
                             <xs:element name="cantidad" minOccurs="0">
                                 <xs:complexType mixed="true">
-
                                     <xs:attribute name="unidad" type="xs:string" use="required"></xs:attribute>
                                 </xs:complexType>
-
                             </xs:element>
-
-
                         </xs:sequence>
-
-
                         <xs:attribute name="idioma" type="tipoIdiomas" use="optional"></xs:attribute>
                     </xs:complexType>
-
-
                 </xs:element>
-
-
             </xs:sequence>
-
-
         </xs:complexType>
-
-
     </xs:element>
-
-
 </xs:schema>
