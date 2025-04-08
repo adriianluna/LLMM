@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "doctype.dtd">
+<biblioteca>
+    <libro autorID="autor1">
+        <titulo>El Quijote</titulo>
+        <autor>
+            <nombre>Miguel de Cervantes</nombre>
+            <pais>España</pais>
+        </autor>
+    </libro>
+
+    <libro autorID="autor2">
+        <titulo>Don Juan Tenorio</titulo>
+        <autor>
+            <nombre>Tirso de Molina</nombre>
+            <pais>España</pais>
+        </autor>
+    </libro>
+
+    <libro >
+        <titulo>Viaje al centro de la Tierra</titulo>
+        <autor>
+            <nombre>Jules Verne</nombre>
+            <pais>Francia</pais>
+        </autor>
+    </libro>
+    <prueba>
+        <francia/>
+    
+    
+    </prueba>
+</biblioteca>

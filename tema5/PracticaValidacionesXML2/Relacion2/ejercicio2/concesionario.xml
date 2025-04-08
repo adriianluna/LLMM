@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concesionario SYSTEM "doctype.dtd">
+
+
+<concesionario>
+    <coches>
+        <modelo></modelo>
+    
+    </coches>
+    <coches>
+        <modelo></modelo>
+        <cv></cv>
+    
+    </coches>
+    <coches>
+        <cod_coche></cod_coche>
+        <modelo></modelo>
+        <plazas num_puertas="3"></plazas>
+    
+    </coches>
+
+
+
+
+</concesionario>

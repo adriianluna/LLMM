@@ -1,0 +1,12 @@
+<!ELEMENT biblioteca (libro+)>
+
+<!ELEMENT libro (titulo,autor,extra)>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT extra (premio?,comentario?,reseña?)>
+
+
+<!ELEMENT premio (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>
+<!ELEMENT reseña (#PCDATA)>

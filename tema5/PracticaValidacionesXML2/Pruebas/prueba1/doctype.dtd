@@ -1,0 +1,7 @@
+<!ELEMENT avisos (aviso+)>
+<!ELEMENT aviso (#PCDATA|mensaje|nota|correo|llamada)*>
+
+<!ELEMENT mensaje (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT llamada (#PCDATA)>

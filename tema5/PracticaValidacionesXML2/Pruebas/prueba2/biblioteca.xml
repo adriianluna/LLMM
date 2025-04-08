@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "doctype.dtd">
+<biblioteca>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <extra>
+            <premio>Año 1950</premio>
+        </extra>
+    </libro>
+    <libro>
+        <titulo>El Principito</titulo>
+        <autor>Antoine de Saint-Exupéry</autor>
+        <extra>
+            <comentario>Lectura recomendada para todas las edades.</comentario>
+            <reseña>Poesía en forma de cuento.</reseña>
+        </extra>
+    </libro>
+</biblioteca>

@@ -1,0 +1,11 @@
+<!ELEMENT eventos (evento+)>
+
+<!ELEMENT evento (presencial)>
+
+<!-- <!ELEMENT presencial ((direccion|sala) | (plataforma|enlace))>-->
+<!ELEMENT presencial ((direccion,sala+) | (plataforma,enlace))>
+
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT sala (#PCDATA)>
+<!ELEMENT plataforma (#PCDATA)>
+<!ELEMENT enlace (#PCDATA)>

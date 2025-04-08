@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE avisos SYSTEM "doctype.dtd">
+
+<avisos>
+  <aviso>
+    Este es un aviso importante.
+    <mensaje>El sistema estará fuera de servicio desde las 10:00 AM hasta las 12:00 PM.</mensaje>
+    <nota>Por favor, planifique sus actividades de acuerdo a esta información.</nota>
+    <correo>soporte@empresa.com</correo>
+    <llamada>Se requiere que los usuarios llamen a la línea de soporte para cualquier consulta.</llamada>
+  </aviso>
+  
+  <aviso>
+    Mantenimiento programado.
+    <mensaje>El servidor se actualizará el próximo viernes a las 3:00 PM.</mensaje>
+    <nota>Asegúrese de guardar su trabajo antes de esa hora.</nota>
+    <correo>it@empresa.com</correo>
+    <llamada>Los usuarios con problemas técnicos deben llamar a soporte al 0800-123-4567.</llamada>
+  </aviso>
+</avisos>

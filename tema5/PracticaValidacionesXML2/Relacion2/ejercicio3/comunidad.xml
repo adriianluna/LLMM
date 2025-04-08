@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comunidad SYSTEM "doctype.dtd">
+
+<comunidad>
+    <vecinos>
+        <cod_vecino carg="presidente"></cod_vecino>
+        <nombre></nombre>
+    
+    </vecinos>
+
+
+
+</comunidad>

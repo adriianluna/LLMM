@@ -1,0 +1,16 @@
+<!ELEMENT biblioteca (libro+, prueba+)>
+
+<!ELEMENT prueba (francia)>
+<!ELEMENT francia EMPTY>
+
+<!ELEMENT libro (titulo,autor)>
+<!ATTLIST libro autorID CDATA "fornite"> 
+
+
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (nombre,pais)>
+
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
