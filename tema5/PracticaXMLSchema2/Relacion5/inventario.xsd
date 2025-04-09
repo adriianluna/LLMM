@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="tipoPeso">
+    <xs:restriction base="xs:integer">
+        <xs:minExclusive value="50"></xs:minExclusive>
+        <xs:maxExclusive value="1500"></xs:maxExclusive>
+    
+    </xs:restriction>
+
+</xs:simpleType>
+
+<xs:simpleType name="tipoIdioma">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ES"/>
+      <xs:enumeration value="EN"/>
+      <xs:enumeration value="FR"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+ <xs:simpleType name="tipoCodigo">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{3}[a-z]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+ <xs:complexType name="tipoUnidad">
+   
+    <xs:attribute name="unidad" type="xs:string"></xs:attribute>
+</xs:complexType>
+
+<xs:element name="listaarticulos">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="articulo" minOccurs="2" maxOccurs="6">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="codigo" type="tipoCodigo"></xs:element>
+                        <xs:element name="peso" type="tipoPeso"></xs:element>
+                        <xs:element name="cantidad" minOccurs="0">
+                        <xs:complexType mixed="true">
+                                
+                                    
+                            <xs:attribute name="unidad" type="xs:string" use="required"/>
+                                    
+                                
+                        </xs:complexType>
+                        
+                        </xs:element>
+                        
+
+                    </xs:sequence>
+
+                <xs:attribute name="idioma" type="tipoIdioma"></xs:attribute>
+                </xs:complexType>
+            
+            </xs:element> 
+
+        
+        </xs:sequence>
+    
+    </xs:complexType>
+
+
+</xs:element>
+
+
+
+</xs:schema>
