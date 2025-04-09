@@ -5,7 +5,8 @@
         <presencial>
             <direccion>Calle Falsa 123</direccion>
             <sala>Auditorio 2</sala>
-          <sala>Auditorio 2</sala>
+            <sala>Auditorio 2</sala>
+            <plataforma></plataforma>
         </presencial>
     </evento>
 

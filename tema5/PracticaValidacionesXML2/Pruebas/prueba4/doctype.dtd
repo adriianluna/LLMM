@@ -6,11 +6,8 @@
 <!ELEMENT libro (titulo,autor)>
 <!ATTLIST libro autorID CDATA "fornite"> 
 
-
-
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT autor (nombre,pais)>
-
 
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT pais (#PCDATA)>
