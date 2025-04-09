@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="tipo1">
+    <xs:restriction base="xs:string">
+      
+      <!-- Mínimo y máximo de caracteres -->
+      <xs:minLength value="3"/>
+      <xs:maxLength value="10"/>
+      
+      <!-- Patrón: solo letras y números -->
+      <xs:pattern value="[a-zA-Z0-9]+"/>
+      
+      <!-- Enumeraciones válidas -->
+      <xs:enumeration value="admin"/>
+      <xs:enumeration value="usuario"/>
+      <xs:enumeration value="invitado"/>
+      
+      <!-- Longitud exacta (esto sobrescribe minLength/maxLength si se usa) -->
+      <!-- <xs:length value="8"/> -->
+
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Otro ejemplo con números -->
+  <xs:simpleType name="edadValida">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="120"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Ejemplo con decimales -->
+  <xs:simpleType name="porcentaje">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0.0"/>
+      <xs:maxInclusive value="100.0"/>
+      <xs:fractionDigits value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Ejemplo con fechas -->
+  <xs:simpleType name="fechaNacimiento">
+    <xs:restriction base="xs:date">
+      <xs:minInclusive value="1900-01-01"/>
+      <xs:maxInclusive value="2025-12-31"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+
+
+
+</xs:schema>
