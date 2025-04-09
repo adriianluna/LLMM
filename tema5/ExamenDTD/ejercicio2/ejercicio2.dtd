@@ -4,5 +4,5 @@
   <!ELEMENT dato (#PCDATA)>
   <!ATTLIST sudoku tamaño CDATA #REQUIRED
   				   solucion CDATA #IMPLIED>
-  <!ATTLIST dato celda CDATA #REQUIRED
+  <!ATTLIST dato celda ID #REQUIRED
   				 valor CDATA #IMPLIED>

@@ -1,6 +1,6 @@
 
 <!ELEMENT alumnos (alumno+)>
-<!ELEMENT alumno (nombre,apellidos,domicilio,telefono+,equipo,aficiones+,comentarios?,evaluaciones)>
+<!ELEMENT alumno (nombre,apellidos,domicilio,telefono+,equipo?,aficiones+,comentarios?,evaluaciones)>
 
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT apellidos (#PCDATA)>

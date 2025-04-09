@@ -25,7 +25,6 @@
         <apellidos>Garcia</apellidos>
         <domicilio>guadalar</domicilio>
         <telefono autor="padre">3454323453</telefono>
-        <telefono autor="tutor">234455322</telefono>
         <equipo>Vals</equipo>
         <aficiones>
             <aficion>Padel</aficion>
