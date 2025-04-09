@@ -1,0 +1,8 @@
+
+<!ELEMENT sudokus (sudoku+)>
+ <!ELEMENT sudoku (dato*)>
+  <!ELEMENT dato (#PCDATA)>
+  <!ATTLIST sudoku tamaño CDATA #REQUIRED
+  				   solucion CDATA #IMPLIED>
+  <!ATTLIST dato celda CDATA #REQUIRED
+  				 valor CDATA #IMPLIED>

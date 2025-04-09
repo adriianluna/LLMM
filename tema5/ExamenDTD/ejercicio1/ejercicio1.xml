@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE softwareLibre [
+  <!ELEMENT softwareLibre (licencias, aplicaciones)>
+  <!ELEMENT licencias (licencia*)>
+  <!ELEMENT licencia EMPTY>
+
+  <!ELEMENT aplicaciones (aplicacion*)>
+  <!ELEMENT aplicacion (version*)>
+  <!ELEMENT version EMPTY>
+  <!ATTLIST licencia nombre CDATA #REQUIRED>
+  <!ATTLIST aplicacion nombre CDATA #REQUIRED>
+  <!ATTLIST version
+    nombre CDATA #REQUIRED
+    licencia CDATA #REQUIRED
+    fechaPublicación CDATA #REQUIRED>
+]>
+<softwareLibre>
+  <licencias>
+    <licencia nombre="GPL v2" />
+    <licencia nombre="BSD2" />
+    <licencia nombre="Apache v2" />
+  </licencias>
+  <aplicaciones>
+    <aplicacion nombre="pepe">
+      <version nombre="0.47" licencia="GPL v2"
+        fechaPublicación="17/08/2010" />
+      <version
+        nombre="0.48" licencia="GPL v2" fechaPublicación="17/08/2010" />
+      <version nombre="0.48.2"
+        licencia="GPL v2" fechaPublicación="14/08/2011" />
+    </aplicacion>
+    <aplicacion nombre="eclipse">
+      <version nombre="0.467.2"
+        licencia="Visual v2" fechaPublicación="17/09/2018" />
+    </aplicacion>
+  </aplicaciones>
+</softwareLibre> 

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM 'doctype.dtd'>
+
+
+<alumnos>
+    <alumno num_alumno="a1">
+        <nombre>Pepe</nombre>
+        <apellidos>Luna</apellidos>
+        <domicilio>teatinos</domicilio>
+        <telefono autor="tutor">123456789</telefono>
+        <telefono autor="padre">123354789</telefono>
+        <equipo>Acadamia de Rafael nadal</equipo>
+        <aficiones>
+            <aficion>Tenis</aficion>
+            <aficion>Criquet</aficion>
+        </aficiones>
+        <evaluaciones>
+            <!-- NInguna o muchas-->
+            <evaluacion tipo="tercera">4</evaluacion>
+            <evaluacion>0</evaluacion>
+        </evaluaciones>
+    </alumno>
+    <alumno num_alumno="a2" sexo="hombre">
+        <nombre>Jose</nombre>
+        <apellidos>Garcia</apellidos>
+        <domicilio>guadalar</domicilio>
+        <telefono autor="padre">3454323453</telefono>
+        <telefono autor="tutor">234455322</telefono>
+        <equipo>Vals</equipo>
+        <aficiones>
+            <aficion>Padel</aficion>
+
+        </aficiones>
+        <evaluaciones>
+            <!-- NInguna o muchas-->
+            <evaluacion tipo="primera">9</evaluacion>
+            <evaluacion>6</evaluacion>
+        </evaluaciones>
+    </alumno>
+    <alumno num_alumno="a3" sexo="mujer" altura="176">
+        <nombre>Adam</nombre>
+        <apellidos>Lopez</apellidos>
+        <domicilio>cádiz</domicilio>
+        <telefono autor="padre">3454323453</telefono>
+        <telefono autor="tutor">234455322</telefono>
+        <equipo>G2 Sports</equipo>
+
+        <aficiones>
+            <aficion>Jugar</aficion>
+
+        </aficiones>
+        <comentarios>
+            <comentario>Buen jugador</comentario>
+        </comentarios>
+        <evaluaciones>
+            <!-- NInguna o muchas-->
+            <evaluacion tipo="segunda">5</evaluacion>
+            <evaluacion>6</evaluacion>
+        </evaluaciones>
+    </alumno>
+
+
+</alumnos>
