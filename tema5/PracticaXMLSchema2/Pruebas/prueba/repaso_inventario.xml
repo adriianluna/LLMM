@@ -4,7 +4,7 @@
     xsi:noNamespaceSchemaLocation="repaso_inventario.xsd">
     <!--Todo
     articulo lleva un código, a veces una descripción
-    y siempre un peso-->
+   y siempre un peso-->
     <!--EL
     idioman siempre lleva un atributo
             idioma que solo puede ser ES, EN o FR-->
