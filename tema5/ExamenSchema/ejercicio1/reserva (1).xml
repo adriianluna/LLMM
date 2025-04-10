@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reservas xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+  xs:noNamespaceSchemaLocation="reservas.xsd">
+
+  <reserva confirmada="si">
+    <cliente>
+      <nombre>Juan</nombre>
+      <apellidos>Pérez</apellidos>
+      <edad>19</edad>
+      <direccion>Calle Jalon 45</direccion>
+      <telefono>123456789</telefono>
+    </cliente>
+    <habitacion tipo="doble">322</habitacion>
+  </reserva>
+  <reserva confirmada="si">
+    <cliente>
+      <nombre>Juan</nombre>
+      <apellidos>Pérez</apellidos>
+      <edad>67</edad>
+      <direccion>Calle Jalon 45</direccion>
+      <email>123456789</email>
+    </cliente>
+    <habitacion tipo="individual">322</habitacion>
+  </reserva>
+</reservas>
