@@ -32,8 +32,7 @@
                                     <xsl:value-of select="disco" />
                                 </td>
                                 <td>
-                                    <xsl:value-of select="precio" />
-                                </td>
+                                    <xsl:value-of select="precio" />€ </td>
                             </tr>
                         </xsl:if>
                     </xsl:for-each>
@@ -49,7 +48,7 @@
                     </tr>
                     <xsl:for-each select="pedido/tablets/tablet">
                         <xsl:if
-                            test="caracteristicas/memoria &gt; 2 and caracteristicas/tamanio &gt;= 6">
+                            test="caracteristicas/memoria &gt; 2 and caracteristicas/tamanio &gt;= 7">
                             <tr>
                                 <td>
                                     <xsl:value-of select="plataforma" />
