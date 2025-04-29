@@ -6,9 +6,24 @@
             <head>
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <style> body {font-size: <xsl:value-of select="biblioteca/css/body/letra" />
-        <xsl:value-of
-                        select="biblioteca/css/body/letra/@unidad" />;} </style>
+                <style>
+                    <xsl:text>body {</xsl:text>
+                      <xsl:text>font-size: </xsl:text>
+                      <xsl:value-of select="biblioteca/css/body/letra"/>
+                      <xsl:value-of select="biblioteca/css/body/letra/@unidad"/>
+                      <xsl:text>;}</xsl:text>
+                  
+                    <xsl:text>table {</xsl:text>
+                      <xsl:text>border-style: </xsl:text>
+                      <xsl:value-of select="biblioteca/css/tabla/tipoBorder"/>
+                      <xsl:text>; border-width: </xsl:text>
+                      <xsl:value-of select="biblioteca/css/tabla/tamanioBorder"/>
+                      <xsl:value-of select="biblioteca/css/tabla/tamanioBorder/@unidad"/>
+                      <xsl:text>; border-color: </xsl:text>
+                      <xsl:value-of select="biblioteca/css/tabla/colorBorder"/>
+                      <xsl:text>;}</xsl:text>
+                  </style>
+                        
             </head>
             <body>
                 <h2>Biblioteca</h2>
@@ -29,17 +44,51 @@
                             <td>
                                 <xsl:value-of select="autor" />
                             </td>
-                            <td>
-                                <xsl:value-of select="año" />
-                            </td>
+                            <xsl:choose>
+                                <xsl:when test="año &lt;= 2000">
+                                    <td style="color: red;">
+                                        <xsl:value-of select="año" />
+                                    </td>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <td >
+                                        <xsl:value-of select="año" />
+                                    </td>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            
                             <td>
                                 <xsl:value-of select="categoria" />
                             </td>
+                            <xsl:choose>
+                                <xsl:when test="@prestado='sí'">
+                                    <td style="background-color: yellow;">
+                                        Prestado
+                                    </td>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <td >
+                                        Disponible
+                                    </td>
+                                </xsl:otherwise>
+                            </xsl:choose>
                         </tr>
 
                     </xsl:for-each>
                 </table>
 
+                <h2>Lista</h2>
+                <ol>
+                    <xsl:for-each select="biblioteca/libro">
+                        <xsl:sort select="autor" data-type="text" order="descending"/>
+                        <xsl:if test="año &gt;= 1950">
+                            
+                               <li>
+                                <xsl:value-of select="autor" />
+                                </li> 
+                        </xsl:if>
+                    </xsl:for-each>
+                </ol>
 
             </body>
         </html>
