@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="destino.xsl"?>
+
+
+  <datos>
+    <cuentas>
+      <cuenta dnititular="5671001D">
+        <nombre>Ramon Perez</nombre>
+        <saldo moneda="euros">12000</saldo>
+        <fecha>13-abril-2012</fecha>
+      </cuenta>
+      <cuenta dnititular="3500876F">
+        <nombre>Ana Soto</nombre>
+        <saldo moneda="dolares">2400</saldo>
+        <fecha>12-marzo-2011</fecha>
+      </cuenta>
+    </cuentas>
+    <fondos>
+      <fondo cuenta="20-A">
+        <cantidad>20000</cantidad>
+        <moneda>Euros</moneda>
+      </fondo>
+      <fondo cuenta="21-T">
+        <cantidad>4300</cantidad>
+        <moneda>Dolares</moneda>
+      </fondo>
+    </fondos>
+  </datos>

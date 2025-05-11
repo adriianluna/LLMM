@@ -7,21 +7,16 @@
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <style>
-                    <xsl:text>body {</xsl:text>
-                      <xsl:text>font-size: </xsl:text>
-                      <xsl:value-of select="biblioteca/css/body/letra"/>
-                      <xsl:value-of select="biblioteca/css/body/letra/@unidad"/>
-                      <xsl:text>;}</xsl:text>
-                  
-                    <xsl:text>table {</xsl:text>
-                      <xsl:text>border-style: </xsl:text>
-                      <xsl:value-of select="biblioteca/css/tabla/tipoBorder"/>
-                      <xsl:text>; border-width: </xsl:text>
-                      <xsl:value-of select="biblioteca/css/tabla/tamanioBorder"/>
-                      <xsl:value-of select="biblioteca/css/tabla/tamanioBorder/@unidad"/>
-                      <xsl:text>; border-color: </xsl:text>
-                      <xsl:value-of select="biblioteca/css/tabla/colorBorder"/>
-                      <xsl:text>;}</xsl:text>
+                    body {
+                      font-size: <xsl:value-of select="biblioteca/css/body/letra" />
+                      <xsl:value-of select="biblioteca/css/body/letra/@unidad" />;
+                    }
+                    table {
+                      border-style: <xsl:value-of select="biblioteca/css/tabla/tipoBorder" />;
+                      border-width: <xsl:value-of select="biblioteca/css/tabla/tamanioBorder" />
+                      <xsl:value-of select="biblioteca/css/tabla/tamanioBorder/@unidad" />;
+                      border-color: <xsl:value-of select="biblioteca/css/tabla/colorBorder" />;
+                    }
                   </style>
                         
             </head>
